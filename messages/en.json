@@ -34,5 +34,33 @@
     "tagline": "UNIQUE EXCELLENT LUBRICANT",
     "rights": "© {year} UEL Malaysia. All rights reserved.",
     "ssm": "SSM: [TODO: get UEL SSM]"
+  },
+  "About": {
+    "eyebrow": "ABOUT // UEL MALAYSIA",
+    "headline": "Built for the way Malaysians drive.",
+    "lede": "UEL — Unique Excellent Lubricant — is the official Malaysian distributor of the UEL brand of engine, industrial and gear oils. We work with workshops, fleet operators and industrial buyers across the country.",
+    "storyEyebrow": "Origin",
+    "storyHeading": "Engineering, not marketing.",
+    "storyP1": "UEL was founded on a simple idea: engine oil should be specified by what it does under the bonnet, not by what it looks like on a shelf. Our ULTRA range is formulated for the loads, temperatures and traffic patterns Malaysian engines actually face — long idles in standstill traffic, humidity that never lets up, and roads that punish anything underprotected.",
+    "storyP2": "Every UEL formulation is built on additive packages benchmarked against OEM service-fill specifications. We document viscosity grade, API class, OEM approvals and pack size on every bottle, because the workshop fitting it should not have to guess.",
+    "storyP3": "We are headquartered in Kuala Lumpur and supply through a growing network of partner workshops nationwide — the people who actually pour the oil. If you run a workshop and want to stock UEL, our distribution team is one WhatsApp message away.",
+    "manufacturingEyebrow": "Manufacturing & Quality",
+    "manufacturingHeading": "Specified, blended, batch-tested.",
+    "row1Eyebrow": "01 // BLENDING",
+    "row1Heading": "Base oil + additive package, dosed to spec.",
+    "row1Body": "Each grade is blended from API-graded base stocks paired with an additive package matched to the application — anti-wear, anti-oxidant, viscosity index improvers, detergents. We don't ship a formulation we couldn't justify on the spec sheet.",
+    "row2Eyebrow": "02 // QUALITY CONTROL",
+    "row2Heading": "Every batch tested before it leaves the line.",
+    "row2Body": "Viscosity at 40°C and 100°C, total base number, flash point — every batch is sampled and verified against its target spec. Out-of-spec batches don't get bottled, full stop.",
+    "row3Eyebrow": "03 // PACKAGING",
+    "row3Heading": "Sealed against tropical humidity.",
+    "row3Body": "ULTRA bottles are HDPE-formed in oxblood with full-body labels rated for direct sun and humidity. Tamper-evident caps mean what's printed on the bottle is what's inside it when your workshop opens it.",
+    "row4Eyebrow": "04 // TRACEABILITY",
+    "row4Heading": "Batch code on every bottle.",
+    "row4Body": "Lot codes are printed on every container, traceable back to blend, base oil source and QC sample. If anything is ever off, we know exactly where to look.",
+    "certEyebrow": "Standards & References",
+    "certHeading": "Specifications referenced.",
+    "certBody": "UEL formulations reference industry-standard specifications. Detailed claims for each product are on the individual product pages.",
+    "certHint": "Refer to the product detail page for the exact specification list per SKU."
   }
 }

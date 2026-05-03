@@ -34,5 +34,33 @@
     "tagline": "UNIQUE EXCELLENT LUBRICANT",
     "rights": "© {year} UEL Malaysia. Hak cipta terpelihara.",
     "ssm": "SSM: [TODO: dapatkan SSM UEL]"
+  },
+  "About": {
+    "eyebrow": "TENTANG // UEL MALAYSIA",
+    "headline": "Dibina untuk cara orang Malaysia memandu.",
+    "lede": "UEL — Unique Excellent Lubricant — ialah pengedar rasmi Malaysia bagi minyak enjin, industri dan gear jenama UEL. Kami bekerjasama dengan bengkel, pengendali armada dan pembeli industri di seluruh negara.",
+    "storyEyebrow": "Asal Usul",
+    "storyHeading": "Kejuruteraan, bukan pemasaran.",
+    "storyP1": "UEL diasaskan atas idea yang mudah: minyak enjin perlu dinilai berdasarkan prestasi sebenar di dalam enjin, bukan rupanya di rak. Siri ULTRA kami diformulasi untuk beban, suhu dan corak trafik yang sebenarnya dihadapi oleh enjin di Malaysia — lama melahu dalam kesesakan, kelembapan yang tidak pernah surut, dan jalan raya yang menghukum apa-apa yang kurang lindung.",
+    "storyP2": "Setiap formulasi UEL dibina atas pakej tambahan yang ditanda aras dengan spesifikasi servis OEM. Kami menyatakan gred kelikatan, kelas API, kelulusan OEM dan saiz pek pada setiap botol, kerana bengkel yang memasangnya tidak sepatutnya perlu meneka.",
+    "storyP3": "Ibu pejabat kami di Kuala Lumpur dan kami membekal melalui rangkaian bengkel rakan kongsi yang berkembang di seluruh negara — orang yang sebenarnya menuangkan minyak. Jika anda mengendalikan bengkel dan ingin menyimpan stok UEL, pasukan pengedaran kami hanya satu mesej WhatsApp jauhnya.",
+    "manufacturingEyebrow": "Pembuatan & Kualiti",
+    "manufacturingHeading": "Dispesifikasi, dicampur, diuji kelompok.",
+    "row1Eyebrow": "01 // CAMPURAN",
+    "row1Heading": "Minyak asas + pakej tambahan, didos mengikut spesifikasi.",
+    "row1Body": "Setiap gred dicampur daripada minyak asas bergred API yang dipadankan dengan pakej tambahan untuk aplikasi tersebut — anti-haus, anti-oksida, peningkat indeks kelikatan, detergen. Kami tidak menghantar apa-apa formulasi yang tidak dapat dijustifikasi pada lembaran spesifikasi.",
+    "row2Eyebrow": "02 // KAWALAN KUALITI",
+    "row2Heading": "Setiap kelompok diuji sebelum keluar dari talian.",
+    "row2Body": "Kelikatan pada 40°C dan 100°C, jumlah nombor bes, takat kilat — setiap kelompok disampel dan disahkan berbanding spesifikasi sasaran. Kelompok luar spesifikasi tidak dibotolkan.",
+    "row3Eyebrow": "03 // PEMBUNGKUSAN",
+    "row3Heading": "Dimeterai daripada kelembapan tropika.",
+    "row3Body": "Botol ULTRA dibentuk HDPE dalam warna oxblood dengan label penuh badan untuk tahan matahari terus dan kelembapan. Penutup bukti gangguan bermakna apa yang tertera pada botol ialah apa yang ada di dalamnya apabila bengkel anda membuka.",
+    "row4Eyebrow": "04 // KEBOLEH-KESANAN",
+    "row4Heading": "Kod kelompok pada setiap botol.",
+    "row4Body": "Kod lot dicetak pada setiap bekas, boleh dijejaki kembali ke campuran, sumber minyak asas dan sampel QC. Sekiranya ada sebarang masalah, kami tahu di mana untuk mencari.",
+    "certEyebrow": "Piawaian & Rujukan",
+    "certHeading": "Spesifikasi yang dirujuk.",
+    "certBody": "Formulasi UEL merujuk spesifikasi piawai industri. Tuntutan terperinci untuk setiap produk berada pada halaman produk individu.",
+    "certHint": "Rujuk halaman butiran produk untuk senarai spesifikasi tepat per SKU."
   }
 }
