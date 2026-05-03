@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { Archivo_Black, Manrope, JetBrains_Mono } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
+import { routing, type Locale } from "@/i18n/routing";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
 import "../globals.css";
 
 const archivoBlack = Archivo_Black({
@@ -50,13 +53,42 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
 
+  const tNav = await getTranslations("Nav");
+  const tCommon = await getTranslations("Common");
+  const tFooter = await getTranslations("Footer");
+
+  const navLabels = {
+    home: tNav("home"),
+    about: tNav("about"),
+    products: tNav("products"),
+    whyUel: tNav("whyUel"),
+    whereToBuy: tNav("whereToBuy"),
+    contact: tNav("contact"),
+  };
+
+  const footerLabels = {
+    nav: navLabels,
+    tagline: tFooter("tagline"),
+    rights: tFooter("rights", { year: new Date().getFullYear() }),
+    ssm: tFooter("ssm"),
+  };
+
   return (
     <html
       lang={locale}
       className={`${archivoBlack.variable} ${manrope.variable} ${jetbrainsMono.variable}`}
     >
       <body className="min-h-screen bg-bg-base text-text-primary font-sans antialiased">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header
+            labels={navLabels}
+            whatsappLabel={tCommon("whatsappCta")}
+            locale={locale as Locale}
+          />
+          <main className="pt-16 md:pt-20">{children}</main>
+          <Footer labels={footerLabels} locale={locale as Locale} />
+          <FloatingWhatsApp />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
