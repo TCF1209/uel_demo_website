@@ -28,6 +28,7 @@ export default async function ContactPage({
   setRequestLocale(locale);
   const t = await getTranslations("Contact");
   const tCommon = await getTranslations("Common");
+  const tQr = await getTranslations("ContactQr");
 
   const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "60123456789";
   const waLink = whatsappUrl(whatsappMessages.generic, phoneNumber);
@@ -58,7 +59,7 @@ export default async function ContactPage({
               {t("qrTitle")}
             </p>
             <h2 className="mt-3 font-display text-3xl tracking-tight md:text-5xl">
-              WhatsApp.
+              {tQr("heading")}
             </h2>
             <p className="mt-4 max-w-md text-base leading-relaxed text-text-secondary md:text-lg">
               {t("qrBody")}

@@ -7,7 +7,6 @@ import {
 import type { Locale } from "@/i18n/routing";
 import { Hero } from "@/components/sections/Hero";
 import { ScrollReveal } from "@/components/sections/ScrollReveal";
-import { AnimatedNumber } from "@/components/sections/AnimatedNumber";
 import { whatsappUrl, whatsappMessages } from "@/lib/whatsapp";
 
 const accentTop: Record<"blue" | "red" | "green", string> = {
@@ -26,6 +25,7 @@ export default async function Home({
   const t = await getTranslations("Home");
   const tCommon = await getTranslations("Common");
   const tCat = await getTranslations("Categories");
+  const tProducts = await getTranslations("Products");
 
   return (
     <>
@@ -35,10 +35,10 @@ export default async function Home({
       <ScrollReveal as="section" className="border-t border-border-subtle py-20 md:py-28">
         <div className="mx-auto max-w-7xl px-6">
           <p className="font-mono text-xs tracking-[0.25em] text-accent-gold uppercase">
-            Series
+            {tProducts("homeSeriesEyebrow")}
           </p>
           <h2 className="mt-3 font-display text-3xl tracking-tight md:text-5xl">
-            Three categories. One standard.
+            {tProducts("homeSeriesHeading")}
           </h2>
 
           <div className="mt-14 grid gap-px overflow-hidden border border-border-subtle md:grid-cols-3">
@@ -59,7 +59,7 @@ export default async function Home({
                   className={`group relative bg-bg-base p-8 transition-colors hover:bg-bg-overlay md:p-10 before:absolute before:inset-x-0 before:top-0 before:h-px ${accentTop[cat.accent]}`}
                 >
                   <p className="font-mono text-xs uppercase tracking-widest text-text-muted">
-                    <AnimatedNumber value={count} /> {count === 1 ? "product" : "products"}
+                    {tCommon("productCount", { count })}
                   </p>
                   <h3 className="mt-4 font-display text-2xl tracking-tight md:text-3xl">
                     {name}

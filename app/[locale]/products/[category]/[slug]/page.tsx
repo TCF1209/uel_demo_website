@@ -63,6 +63,7 @@ export default async function ProductDetail({
   if (!cat) notFound();
 
   const tCommon = await getTranslations("Common");
+  const tProducts = await getTranslations("Products");
 
   const name = product.name[locale as Locale];
   const description = product.description[locale as Locale];
@@ -70,15 +71,15 @@ export default async function ProductDetail({
   const related = getRelatedProducts(product.id);
 
   const specRows = [
-    { label: "Viscosity", value: product.viscosity },
-    ...(product.apiRating ? [{ label: "API", value: product.apiRating }] : []),
-    ...(product.aceaRating ? [{ label: "ACEA", value: product.aceaRating }] : []),
-    ...(product.jasoRating ? [{ label: "JASO", value: product.jasoRating }] : []),
+    { label: tProducts("specViscosity"), value: product.viscosity },
+    ...(product.apiRating ? [{ label: tProducts("specApi"), value: product.apiRating }] : []),
+    ...(product.aceaRating ? [{ label: tProducts("specAcea"), value: product.aceaRating }] : []),
+    ...(product.jasoRating ? [{ label: tProducts("specJaso"), value: product.jasoRating }] : []),
     ...(product.oemApprovals && product.oemApprovals.length > 0
-      ? [{ label: "OEM", value: product.oemApprovals.join(", ") }]
+      ? [{ label: tProducts("specOem"), value: product.oemApprovals.join(", ") }]
       : []),
-    { label: "Series", value: product.series },
-    { label: "Pack", value: product.packSizes.join(" · ") },
+    { label: tProducts("specSeries"), value: product.series },
+    { label: tProducts("specPack"), value: product.packSizes.join(" · ") },
   ];
 
   // Structured data: Product JSON-LD (brief §10)
@@ -110,14 +111,14 @@ export default async function ProductDetail({
         {/* Breadcrumb */}
         <nav className="font-mono text-xs uppercase tracking-widest text-text-muted">
           <Link href="/" className="hover:text-text-primary transition-colors">
-            Home
+            {tCommon("breadcrumbHome")}
           </Link>
           <span className="mx-2">/</span>
           <Link
             href="/products"
             className="hover:text-text-primary transition-colors"
           >
-            Products
+            {tCommon("breadcrumbProducts")}
           </Link>
           <span className="mx-2">/</span>
           <Link
@@ -167,7 +168,7 @@ export default async function ProductDetail({
             {product.suitableFor.length > 0 && (
               <div className="mt-8">
                 <p className="font-mono text-xs uppercase tracking-widest text-text-muted">
-                  Suitable for
+                  {tProducts("suitableFor")}
                 </p>
                 <ul className="mt-3 flex flex-wrap gap-2">
                   {product.suitableFor.map((item, i) => (
@@ -208,10 +209,10 @@ export default async function ProductDetail({
         <div className="mt-20 grid gap-12 md:grid-cols-2 md:gap-16">
           <section>
             <p className="font-mono text-xs uppercase tracking-[0.25em] text-accent-gold">
-              Technical
+              {tProducts("technical")}
             </p>
             <h2 className="mt-3 font-display text-3xl tracking-tight md:text-4xl">
-              Specifications
+              {tProducts("specifications")}
             </h2>
             <div className="mt-6">
               <SpecTable rows={specRows} />
@@ -221,10 +222,10 @@ export default async function ProductDetail({
           {product.benefits.length > 0 && (
             <section>
               <p className="font-mono text-xs uppercase tracking-[0.25em] text-accent-gold">
-                Performance
+                {tProducts("performance")}
               </p>
               <h2 className="mt-3 font-display text-3xl tracking-tight md:text-4xl">
-                Benefits
+                {tProducts("benefits")}
               </h2>
               <ul className="mt-6 space-y-4">
                 {product.benefits.map((b, i) => (
@@ -248,10 +249,10 @@ export default async function ProductDetail({
         {/* Pack sizes */}
         <section className="mt-20">
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-accent-gold">
-            Available
+            {tProducts("available")}
           </p>
           <h2 className="mt-3 font-display text-3xl tracking-tight md:text-4xl">
-            Pack sizes
+            {tProducts("packSizes")}
           </h2>
           <ul className="mt-6 flex flex-wrap gap-3">
             {product.packSizes.map((size) => (
@@ -269,10 +270,10 @@ export default async function ProductDetail({
         {related.length > 0 && (
           <section className="mt-24 border-t border-border-subtle pt-16">
             <p className="font-mono text-xs uppercase tracking-[0.25em] text-accent-gold">
-              Related
+              {tProducts("related")}
             </p>
             <h2 className="mt-3 font-display text-3xl tracking-tight md:text-4xl">
-              From the same category
+              {tProducts("relatedHeading")}
             </h2>
             <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((r) => (

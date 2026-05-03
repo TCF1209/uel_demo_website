@@ -27,6 +27,12 @@ export default async function WhereToBuyPage({
   const t = await getTranslations("WhereToBuy");
   const tCat = await getTranslations("Categories");
 
+  const serviceShortLabels = {
+    "engine-oil": tCat("engineShort"),
+    "industrial-oil": tCat("industrialShort"),
+    "gear-oil": tCat("gearShort"),
+  };
+
   const stateFilter = sp.state ?? "";
   const servicesFilter = (sp.services ?? "").split(",").filter(Boolean);
   const query = (sp.q ?? "").trim().toLowerCase();
@@ -128,6 +134,7 @@ export default async function WhereToBuyPage({
                         workshop={w}
                         callLabel={t("callCta")}
                         whatsappLabel={t("whatsappCta")}
+                        serviceLabel={serviceShortLabels}
                       />
                     </li>
                   ))}

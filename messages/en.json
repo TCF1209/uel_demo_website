@@ -13,7 +13,10 @@
     "findWorkshop": "Find a Workshop",
     "viewDetails": "View Details",
     "viewRange": "View Range",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "breadcrumbHome": "Home",
+    "breadcrumbProducts": "Products",
+    "productCount": "{count, plural, one {# product} other {# products}}"
   },
   "Home": {
     "eyebrow": "ENGINE PROTECTION // SINCE [YEAR]",
@@ -28,7 +31,40 @@
     "gearOil": "Gear Oil",
     "engineOilDesc": "For cars and motorbikes — tested for Malaysian climate.",
     "industrialOilDesc": "Hydraulic, heavy-duty, and compressor oils.",
-    "gearOilDesc": "Gearbox, transmission, ATF, and CVTF formulations."
+    "gearOilDesc": "Gearbox, transmission, ATF, and CVTF formulations.",
+    "engineShort": "Engine",
+    "industrialShort": "Industrial",
+    "gearShort": "Gear"
+  },
+  "Products": {
+    "homeSeriesEyebrow": "Series",
+    "homeSeriesHeading": "Three categories. One standard.",
+    "hubEyebrow": "Series 01 // Range",
+    "hubHeadline": "Engineered range. Built for Malaysia.",
+    "hubLede": "Three categories, one engineering standard. Browse the full UEL ULTRA lineup or jump straight to what your engine needs.",
+    "categoryEyebrow": "Category",
+    "specifications": "Specifications",
+    "technical": "Technical",
+    "performance": "Performance",
+    "benefits": "Benefits",
+    "available": "Available",
+    "packSizes": "Pack sizes",
+    "suitableFor": "Suitable for",
+    "related": "Related",
+    "relatedHeading": "From the same category",
+    "specViscosity": "Viscosity",
+    "specApi": "API",
+    "specAcea": "ACEA",
+    "specJaso": "JASO",
+    "specOem": "OEM",
+    "specSeries": "Series",
+    "specPack": "Pack"
+  },
+  "AboutCta": {
+    "heading": "See the range, find a workshop."
+  },
+  "ContactQr": {
+    "heading": "WhatsApp."
   },
   "Footer": {
     "tagline": "UNIQUE EXCELLENT LUBRICANT",

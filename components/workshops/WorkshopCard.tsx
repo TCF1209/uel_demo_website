@@ -18,20 +18,18 @@ const serviceAccent: Record<Workshop["services"][number], string> = {
   "gear-oil": "border-accent-green text-accent-green",
 };
 
-const serviceLabel: Record<Workshop["services"][number], string> = {
-  "engine-oil": "Engine",
-  "industrial-oil": "Industrial",
-  "gear-oil": "Gear",
-};
+type ServiceLabels = Record<Workshop["services"][number], string>;
 
 export function WorkshopCard({
   workshop,
   callLabel,
   whatsappLabel,
+  serviceLabel,
 }: {
   workshop: Workshop;
   callLabel: string;
   whatsappLabel: string;
+  serviceLabel: ServiceLabels;
 }) {
   return (
     <article className="border border-border-subtle bg-bg-elevated p-6 md:p-8">

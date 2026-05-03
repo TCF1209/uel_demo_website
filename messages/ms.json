@@ -13,7 +13,10 @@
     "findWorkshop": "Cari Bengkel",
     "viewDetails": "Lihat Butiran",
     "viewRange": "Lihat Siri",
-    "loading": "Memuatkan..."
+    "loading": "Memuatkan...",
+    "breadcrumbHome": "Laman Utama",
+    "breadcrumbProducts": "Produk",
+    "productCount": "{count, plural, other {# produk}}"
   },
   "Home": {
     "eyebrow": "PERLINDUNGAN ENJIN // SEJAK [YEAR]",
@@ -28,7 +31,40 @@
     "gearOil": "Minyak Gear",
     "engineOilDesc": "Untuk kereta dan motosikal — diuji untuk iklim Malaysia.",
     "industrialOilDesc": "Minyak hidraulik, berat dan pemampat.",
-    "gearOilDesc": "Formulasi kotak gear, transmisi, ATF dan CVTF."
+    "gearOilDesc": "Formulasi kotak gear, transmisi, ATF dan CVTF.",
+    "engineShort": "Enjin",
+    "industrialShort": "Industri",
+    "gearShort": "Gear"
+  },
+  "Products": {
+    "homeSeriesEyebrow": "Siri",
+    "homeSeriesHeading": "Tiga kategori. Satu standard.",
+    "hubEyebrow": "Siri 01 // Julat",
+    "hubHeadline": "Julat berjurutera. Dibina untuk Malaysia.",
+    "hubLede": "Tiga kategori, satu standard kejuruteraan. Lihat barisan UEL ULTRA penuh atau terus ke produk yang enjin anda perlukan.",
+    "categoryEyebrow": "Kategori",
+    "specifications": "Spesifikasi",
+    "technical": "Teknikal",
+    "performance": "Prestasi",
+    "benefits": "Manfaat",
+    "available": "Tersedia",
+    "packSizes": "Saiz pek",
+    "suitableFor": "Sesuai untuk",
+    "related": "Berkaitan",
+    "relatedHeading": "Dari kategori yang sama",
+    "specViscosity": "Kelikatan",
+    "specApi": "API",
+    "specAcea": "ACEA",
+    "specJaso": "JASO",
+    "specOem": "OEM",
+    "specSeries": "Siri",
+    "specPack": "Pek"
+  },
+  "AboutCta": {
+    "heading": "Lihat julat, cari bengkel."
+  },
+  "ContactQr": {
+    "heading": "WhatsApp."
   },
   "Footer": {
     "tagline": "UNIQUE EXCELLENT LUBRICANT",

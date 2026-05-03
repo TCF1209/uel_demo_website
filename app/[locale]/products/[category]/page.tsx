@@ -10,7 +10,6 @@ import {
   type ProductCategory,
 } from "@/lib/products";
 import { ProductCard } from "@/components/products/ProductCard";
-import { AnimatedNumber } from "@/components/sections/AnimatedNumber";
 
 const accentEyebrow: Record<"blue" | "red" | "green", string> = {
   blue: "text-accent-blue",
@@ -52,6 +51,7 @@ export default async function CategoryPage({
 
   const tCommon = await getTranslations("Common");
   const tCat = await getTranslations("Categories");
+  const tProducts = await getTranslations("Products");
   const productsInCat = getProductsByCategory(cat.id);
   const name = cat.name[locale as Locale];
   const descKey = (
@@ -67,11 +67,11 @@ export default async function CategoryPage({
       {/* Breadcrumb */}
       <nav className="font-mono text-xs uppercase tracking-widest text-text-muted">
         <Link href="/" className="hover:text-text-primary transition-colors">
-          Home
+          {tCommon("breadcrumbHome")}
         </Link>
         <span className="mx-2">/</span>
         <Link href="/products" className="hover:text-text-primary transition-colors">
-          Products
+          {tCommon("breadcrumbProducts")}
         </Link>
         <span className="mx-2">/</span>
         <span className="text-text-secondary">{name}</span>
@@ -82,7 +82,7 @@ export default async function CategoryPage({
         <p
           className={`font-mono text-xs uppercase tracking-[0.25em] ${accentEyebrow[cat.accent]}`}
         >
-          Category
+          {tProducts("categoryEyebrow")}
         </p>
         <h1 className="mt-4 font-display text-5xl tracking-tight md:text-7xl">
           {name}
@@ -91,8 +91,7 @@ export default async function CategoryPage({
           {tCat(descKey)}
         </p>
         <p className="mt-6 font-mono text-xs uppercase tracking-widest text-text-muted">
-          <AnimatedNumber value={productsInCat.length} />{" "}
-          {productsInCat.length === 1 ? "product" : "products"}
+          {tCommon("productCount", { count: productsInCat.length })}
         </p>
       </header>
 

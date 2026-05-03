@@ -13,7 +13,10 @@
     "findWorkshop": "查找维修厂",
     "viewDetails": "查看详情",
     "viewRange": "查看系列",
-    "loading": "加载中..."
+    "loading": "加载中...",
+    "breadcrumbHome": "首页",
+    "breadcrumbProducts": "产品",
+    "productCount": "{count, plural, other {# 项产品}}"
   },
   "Home": {
     "eyebrow": "引擎保护 // 始于 [YEAR]",
@@ -28,7 +31,40 @@
     "gearOil": "齿轮油",
     "engineOilDesc": "适用于汽车与摩托车 — 经马来西亚气候测试。",
     "industrialOilDesc": "液压、重型机械与压缩机用油。",
-    "gearOilDesc": "齿轮箱、变速箱、ATF 与 CVTF 配方。"
+    "gearOilDesc": "齿轮箱、变速箱、ATF 与 CVTF 配方。",
+    "engineShort": "引擎",
+    "industrialShort": "工业",
+    "gearShort": "齿轮"
+  },
+  "Products": {
+    "homeSeriesEyebrow": "系列",
+    "homeSeriesHeading": "三大类别。一致标准。",
+    "hubEyebrow": "系列 01 // 产品",
+    "hubHeadline": "工程级产品。为马来西亚而建。",
+    "hubLede": "三大类别，一致的工程标准。浏览完整 UEL ULTRA 系列，或直接前往符合您引擎所需的产品。",
+    "categoryEyebrow": "类别",
+    "specifications": "规格",
+    "technical": "技术",
+    "performance": "性能",
+    "benefits": "效益",
+    "available": "供应",
+    "packSizes": "包装规格",
+    "suitableFor": "适用于",
+    "related": "相关",
+    "relatedHeading": "同类别其他产品",
+    "specViscosity": "黏度",
+    "specApi": "API",
+    "specAcea": "ACEA",
+    "specJaso": "JASO",
+    "specOem": "OEM",
+    "specSeries": "系列",
+    "specPack": "包装"
+  },
+  "AboutCta": {
+    "heading": "查看产品，寻找维修厂。"
+  },
+  "ContactQr": {
+    "heading": "WhatsApp。"
   },
   "Footer": {
     "tagline": "UNIQUE EXCELLENT LUBRICANT",

@@ -29,6 +29,7 @@ export default async function AboutPage({
   setRequestLocale(locale);
   const t = await getTranslations("About");
   const tCommon = await getTranslations("Common");
+  const tCta = await getTranslations("AboutCta");
 
   return (
     <>
@@ -156,7 +157,7 @@ export default async function AboutPage({
       <section className="border-b border-border-subtle">
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-6 py-16 md:flex-row md:items-center md:py-20">
           <p className="font-display text-2xl tracking-tight md:text-4xl">
-            See the range, find a workshop.
+            {tCta("heading")}
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link
