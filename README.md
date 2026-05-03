@@ -11,8 +11,8 @@ Multilingual brochure-style marketing website for **UEL (Unique Excellent Lubric
 
 ```bash
 cp .env.example .env.local        # fill in WhatsApp number + Resend key
-pnpm install
-pnpm dev                           # http://localhost:3000
+npm install
+npm run dev                           # http://localhost:3000
 ```
 
 The default locale (`en`) renders at `/`. Chinese is at `/zh`, Malay at `/ms`.
@@ -22,7 +22,7 @@ The default locale (`en`) renders at `/`. Chinese is at `/zh`, Malay at `/ms`.
 1. Drop the product photo into `public/products/{category}/<slug>.webp` (convert from JPEG first).
 2. Add an entry to `data/products.json` matching the `Product` type in `lib/products.ts`.
 3. Localized strings (`name`, `description`, `benefits`, `suitableFor`) need all three locales — Chinese and Malay can use AI-translated placeholders with a `// TODO: client translation` note.
-4. Run `pnpm build` to confirm typing and routing both still pass.
+4. Run `npm run build` to confirm typing and routing both still pass.
 
 ## How to add a workshop
 

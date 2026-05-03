@@ -105,7 +105,9 @@ These are non-negotiable and override generic Tailwind reflexes:
 ## Commands
 
 ```bash
-pnpm dev          # start dev server
-pnpm build        # production build (run before claiming a page is "done")
-pnpm lint         # ESLint
+npm run dev       # start dev server
+npm run build     # production build (run before claiming a page is "done")
+npm run lint      # ESLint
 ```
+
+> **Why npm not pnpm:** scaffold initially used pnpm. We switched to npm because pnpm's symlink-heavy `node_modules` layout breaks VS Code's TypeScript Server when running on Windows against a WSL-installed project (symlinks created by WSL aren't always followable from the Windows side). npm uses copies, so the same `node_modules` works from either side. If the user later wants to switch back to pnpm, run development through the WSL VS Code extension instead.
