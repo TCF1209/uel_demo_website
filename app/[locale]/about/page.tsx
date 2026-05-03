@@ -3,6 +3,7 @@ import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import { whatsappUrl, whatsappMessages } from "@/lib/whatsapp";
+import { ScrollReveal } from "@/components/sections/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "About",
@@ -85,10 +86,8 @@ export default async function AboutPage({
               const body = t(`row${row.id}Body`);
               const reverse = row.id % 2 === 0;
               return (
-                <li
-                  key={row.id}
-                  className={`grid gap-8 py-12 md:py-16 lg:grid-cols-12 lg:items-center lg:gap-16`}
-                >
+                <li key={row.id}>
+                  <ScrollReveal className={`grid gap-8 py-12 md:py-16 lg:grid-cols-12 lg:items-center lg:gap-16`}>
                   <div
                     className={`relative aspect-[4/5] mx-auto w-full max-w-sm lg:col-span-5 ${reverse ? "lg:col-start-8" : ""}`}
                   >
@@ -113,6 +112,7 @@ export default async function AboutPage({
                       {body}
                     </p>
                   </div>
+                  </ScrollReveal>
                 </li>
               );
             })}

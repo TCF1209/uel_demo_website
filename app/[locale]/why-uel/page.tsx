@@ -5,10 +5,11 @@ import { Link } from "@/i18n/routing";
 import { whatsappUrl, whatsappMessages } from "@/lib/whatsapp";
 import {
   categories,
-  getProductsByCategory,
   products,
 } from "@/lib/products";
 import workshopsData from "@/data/workshops.json";
+import { AnimatedNumber } from "@/components/sections/AnimatedNumber";
+import { ScrollReveal } from "@/components/sections/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Why UEL",
@@ -87,32 +88,34 @@ export default async function WhyUelPage({
           const body = t(`s${section.id}Body`);
           return (
             <li key={section.id}>
-              <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 lg:grid-cols-12 lg:items-center lg:gap-16 md:py-28">
-                <div
-                  className={`relative aspect-[4/5] mx-auto w-full max-w-md lg:col-span-5 ${reverse ? "lg:col-start-8" : ""}`}
-                >
-                  <Image
-                    src={section.image}
-                    alt={section.alt}
-                    fill
-                    sizes="(max-width: 1024px) 80vw, 35vw"
-                    className="object-contain"
-                  />
+              <ScrollReveal>
+                <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 lg:grid-cols-12 lg:items-center lg:gap-16 md:py-28">
+                  <div
+                    className={`relative aspect-[4/5] mx-auto w-full max-w-md lg:col-span-5 ${reverse ? "lg:col-start-8" : ""}`}
+                  >
+                    <Image
+                      src={section.image}
+                      alt={section.alt}
+                      fill
+                      sizes="(max-width: 1024px) 80vw, 35vw"
+                      className="object-contain"
+                    />
+                  </div>
+                  <div
+                    className={`lg:col-span-6 ${reverse ? "lg:col-start-1 lg:row-start-1" : "lg:col-start-7"}`}
+                  >
+                    <p className="font-mono text-xs tracking-[0.25em] uppercase text-accent-gold">
+                      {eyebrow}
+                    </p>
+                    <h2 className="mt-4 font-display text-3xl leading-tight tracking-tight md:text-5xl">
+                      {heading}
+                    </h2>
+                    <p className="mt-6 max-w-xl text-base leading-relaxed text-text-secondary md:text-lg">
+                      {body}
+                    </p>
+                  </div>
                 </div>
-                <div
-                  className={`lg:col-span-6 ${reverse ? "lg:col-start-1 lg:row-start-1" : "lg:col-start-7"}`}
-                >
-                  <p className="font-mono text-xs tracking-[0.25em] uppercase text-accent-gold">
-                    {eyebrow}
-                  </p>
-                  <h2 className="mt-4 font-display text-3xl leading-tight tracking-tight md:text-5xl">
-                    {heading}
-                  </h2>
-                  <p className="mt-6 max-w-xl text-base leading-relaxed text-text-secondary md:text-lg">
-                    {body}
-                  </p>
-                </div>
-              </div>
+              </ScrollReveal>
             </li>
           );
         })}
@@ -130,9 +133,10 @@ export default async function WhyUelPage({
                 key={s.label}
                 className="bg-bg-base px-6 py-10 md:py-14"
               >
-                <p className="font-display text-5xl tracking-tight text-accent-gold md:text-6xl">
-                  {s.value}
-                </p>
+                <AnimatedNumber
+                  value={s.value}
+                  className="font-display text-5xl tracking-tight text-accent-gold md:text-6xl"
+                />
                 <p className="mt-3 font-mono text-xs uppercase tracking-widest text-text-muted">
                   {s.label}
                 </p>

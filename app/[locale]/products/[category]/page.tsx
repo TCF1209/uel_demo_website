@@ -10,6 +10,7 @@ import {
   type ProductCategory,
 } from "@/lib/products";
 import { ProductCard } from "@/components/products/ProductCard";
+import { AnimatedNumber } from "@/components/sections/AnimatedNumber";
 
 const accentEyebrow: Record<"blue" | "red" | "green", string> = {
   blue: "text-accent-blue",
@@ -90,7 +91,7 @@ export default async function CategoryPage({
           {tCat(descKey)}
         </p>
         <p className="mt-6 font-mono text-xs uppercase tracking-widest text-text-muted">
-          {productsInCat.length}{" "}
+          <AnimatedNumber value={productsInCat.length} />{" "}
           {productsInCat.length === 1 ? "product" : "products"}
         </p>
       </header>

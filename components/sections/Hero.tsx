@@ -62,7 +62,7 @@ export function Hero() {
   const bottle = reduce ? reducedItemVariants : bottleVariants;
 
   return (
-    <section className="relative min-h-[88vh] overflow-hidden">
+    <section className="relative overflow-hidden">
       {/* Ambient gradient — flow effect via animated background-position (CSS) */}
       <div
         aria-hidden
@@ -73,7 +73,7 @@ export function Hero() {
         variants={containerVariants}
         initial="hidden"
         animate="shown"
-        className="mx-auto grid min-h-[88vh] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-20 md:py-28 lg:grid-cols-12"
+        className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-10 px-6 pt-6 pb-20 md:gap-12 md:pt-10 md:pb-28 lg:grid-cols-12"
       >
         <div className="lg:col-span-5">
           <motion.p

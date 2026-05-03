@@ -7,6 +7,7 @@ import {
 import type { Locale } from "@/i18n/routing";
 import { Hero } from "@/components/sections/Hero";
 import { ScrollReveal } from "@/components/sections/ScrollReveal";
+import { AnimatedNumber } from "@/components/sections/AnimatedNumber";
 import { whatsappUrl, whatsappMessages } from "@/lib/whatsapp";
 
 const accentTop: Record<"blue" | "red" | "green", string> = {
@@ -58,7 +59,7 @@ export default async function Home({
                   className={`group relative bg-bg-base p-8 transition-colors hover:bg-bg-overlay md:p-10 before:absolute before:inset-x-0 before:top-0 before:h-px ${accentTop[cat.accent]}`}
                 >
                   <p className="font-mono text-xs uppercase tracking-widest text-text-muted">
-                    {count} {count === 1 ? "product" : "products"}
+                    <AnimatedNumber value={count} /> {count === 1 ? "product" : "products"}
                   </p>
                   <h3 className="mt-4 font-display text-2xl tracking-tight md:text-3xl">
                     {name}
