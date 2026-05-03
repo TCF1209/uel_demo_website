@@ -1,0 +1,38 @@
+{
+  "Nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "whyUel": "为何选择 UEL",
+    "whereToBuy": "购买地点",
+    "contact": "联系我们"
+  },
+  "Common": {
+    "whatsappCta": "WhatsApp 联系",
+    "explore": "浏览产品",
+    "findWorkshop": "查找维修厂",
+    "viewDetails": "查看详情",
+    "viewRange": "查看系列",
+    "loading": "加载中..."
+  },
+  "Home": {
+    "eyebrow": "引擎保护 // 始于 [YEAR]",
+    "headline": "为马来西亚道路而生。",
+    "subcopy": "UEL — Unique Excellent Lubricant。专为热带气候、潮湿环境与本地驾驶习惯调配的高级引擎油、工业油与齿轮油。",
+    "stockistCta": "在您的维修厂供应 UEL。",
+    "workshopTeaserCount": "全国 {count}+ 间维修厂可购"
+  },
+  "Categories": {
+    "engineOil": "引擎机油",
+    "industrialOil": "工业油",
+    "gearOil": "齿轮油",
+    "engineOilDesc": "适用于汽车与摩托车 — 经马来西亚气候测试。",
+    "industrialOilDesc": "液压、重型机械与压缩机用油。",
+    "gearOilDesc": "齿轮箱、变速箱、ATF 与 CVTF 配方。"
+  },
+  "Footer": {
+    "tagline": "UNIQUE EXCELLENT LUBRICANT",
+    "rights": "© {year} UEL 马来西亚。版权所有。",
+    "ssm": "SSM: [TODO: 获取 UEL SSM]"
+  }
+}

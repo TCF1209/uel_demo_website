@@ -1,0 +1,38 @@
+{
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "whyUel": "Why UEL",
+    "whereToBuy": "Where to Buy",
+    "contact": "Contact"
+  },
+  "Common": {
+    "whatsappCta": "WhatsApp Us",
+    "explore": "Explore Products",
+    "findWorkshop": "Find a Workshop",
+    "viewDetails": "View Details",
+    "viewRange": "View Range",
+    "loading": "Loading..."
+  },
+  "Home": {
+    "eyebrow": "ENGINE PROTECTION // SINCE [YEAR]",
+    "headline": "Engineered for Malaysian roads.",
+    "subcopy": "UEL — Unique Excellent Lubricant. Premium engine, industrial, and gear oils tested for tropical heat, humidity, and the way you actually drive.",
+    "stockistCta": "Stock UEL at your workshop.",
+    "workshopTeaserCount": "Find UEL at {count}+ workshops nationwide"
+  },
+  "Categories": {
+    "engineOil": "Engine Oil",
+    "industrialOil": "Industrial Oil",
+    "gearOil": "Gear Oil",
+    "engineOilDesc": "For cars and motorbikes — tested for Malaysian climate.",
+    "industrialOilDesc": "Hydraulic, heavy-duty, and compressor oils.",
+    "gearOilDesc": "Gearbox, transmission, ATF, and CVTF formulations."
+  },
+  "Footer": {
+    "tagline": "UNIQUE EXCELLENT LUBRICANT",
+    "rights": "© {year} UEL Malaysia. All rights reserved.",
+    "ssm": "SSM: [TODO: get UEL SSM]"
+  }
+}

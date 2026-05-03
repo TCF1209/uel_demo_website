@@ -1,0 +1,259 @@
+[
+  {
+    "id": "ultra-hd40",
+    "category": "engine-oil",
+    "subCategory": "premium-mineral",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA HD40", "zh": "ULTRA HD40", "ms": "ULTRA HD40" },
+    "shortDescription": {
+      "en": "Heavy-duty mineral engine oil for diesel and high-mileage petrol engines.",
+      "zh": "适用于柴油及高里程汽油引擎的重型矿物机油。",
+      "ms": "Minyak enjin mineral berat untuk enjin diesel dan petrol berbatu tinggi."
+    },
+    "description": {
+      "en": "ULTRA HD40 is a single-grade SAE 40 mineral engine oil formulated for heavy-duty diesel applications and older petrol engines that require thicker film strength under high heat. Engineered for Malaysian climate and stop-start city traffic.",
+      "zh": "ULTRA HD40 为单级 SAE 40 矿物引擎机油，专为重型柴油机及需要高温下油膜强度的旧型汽油引擎所配制。专为马来西亚气候与都市走停车流而设计。",
+      "ms": "ULTRA HD40 ialah minyak enjin mineral SAE 40 gred tunggal yang diformulasi untuk aplikasi diesel berat dan enjin petrol lama yang memerlukan ketahanan filem minyak pada haba tinggi. Direka untuk iklim Malaysia dan trafik berhenti-jalan bandar."
+    },
+    "viscosity": "SAE 40",
+    "apiRating": "API CF/SL",
+    "packSizes": ["4L", "5L", "18L"],
+    "suitableFor": [
+      { "en": "Heavy-duty diesel", "zh": "重型柴油", "ms": "Diesel berat" },
+      { "en": "High-mileage petrol", "zh": "高里程汽油", "ms": "Petrol batu tinggi" }
+    ],
+    "benefits": [
+      {
+        "en": "High-temperature film strength",
+        "zh": "高温油膜稳定",
+        "ms": "Ketahanan filem pada haba tinggi"
+      },
+      {
+        "en": "Wear protection for older engines",
+        "zh": "保护旧引擎免受磨损",
+        "ms": "Perlindungan haus untuk enjin lama"
+      }
+    ],
+    "imageUrl": "/products/_uncategorized/placeholder.png",
+    "featured": true
+  },
+  {
+    "id": "ultra-10w30",
+    "category": "engine-oil",
+    "subCategory": "semi-synthetic",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA 10W-30", "zh": "ULTRA 10W-30", "ms": "ULTRA 10W-30" },
+    "shortDescription": {
+      "en": "Semi-synthetic multigrade for everyday Malaysian cars.",
+      "zh": "适用于日常马来西亚车辆的半合成多级机油。",
+      "ms": "Multigrade separa sintetik untuk kereta Malaysia harian."
+    },
+    "description": {
+      "en": "Balanced semi-synthetic 10W-30 for petrol passenger cars. Stable viscosity across hot tropical temperatures with strong cold-start protection.",
+      "zh": "为汽油轿车配制的均衡型半合成 10W-30。于热带高温下保持稳定黏度，并提供良好的冷启动保护。",
+      "ms": "10W-30 separa sintetik seimbang untuk kereta penumpang petrol. Kelikatan stabil pada suhu tropika tinggi dengan perlindungan permulaan sejuk yang baik."
+    },
+    "viscosity": "10W-30",
+    "apiRating": "API SN",
+    "packSizes": ["1L", "4L"],
+    "suitableFor": [
+      { "en": "Petrol passenger cars", "zh": "汽油轿车", "ms": "Kereta penumpang petrol" }
+    ],
+    "benefits": [
+      {
+        "en": "Year-round Malaysian climate stability",
+        "zh": "全年适应马来西亚气候",
+        "ms": "Kestabilan iklim Malaysia sepanjang tahun"
+      }
+    ],
+    "imageUrl": "/products/_uncategorized/placeholder.png"
+  },
+  {
+    "id": "ultra-20w50",
+    "category": "engine-oil",
+    "subCategory": "premium-mineral",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA 20W-50", "zh": "ULTRA 20W-50", "ms": "ULTRA 20W-50" },
+    "shortDescription": {
+      "en": "Premium mineral 20W-50 for high-mileage and tropical conditions.",
+      "zh": "适用于高里程及热带环境的优质矿物 20W-50。",
+      "ms": "20W-50 mineral premium untuk batu tinggi dan keadaan tropika."
+    },
+    "description": {
+      "en": "Heavier multigrade 20W-50 ideal for older Malaysian cars with higher mileage. Strong oil pressure retention under prolonged heat.",
+      "zh": "较重的多级 20W-50，适合高里程的旧式马来西亚车辆。在长时间高温下保持优良的油压。",
+      "ms": "Multigrade 20W-50 yang lebih berat sesuai untuk kereta lama batu tinggi. Pengekalan tekanan minyak yang kuat dalam haba berpanjangan."
+    },
+    "viscosity": "20W-50",
+    "apiRating": "API SL",
+    "packSizes": ["4L", "5L"],
+    "suitableFor": [
+      { "en": "High-mileage petrol cars", "zh": "高里程汽油车", "ms": "Kereta petrol batu tinggi" }
+    ],
+    "benefits": [
+      {
+        "en": "Maintains pressure in hot conditions",
+        "zh": "高温下保持油压",
+        "ms": "Mengekalkan tekanan dalam keadaan panas"
+      }
+    ],
+    "imageUrl": "/products/_uncategorized/placeholder.png"
+  },
+  {
+    "id": "ultra-5w40",
+    "category": "engine-oil",
+    "subCategory": "fully-synthetic",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA 5W-40", "zh": "ULTRA 5W-40", "ms": "ULTRA 5W-40" },
+    "shortDescription": {
+      "en": "Fully synthetic 5W-40 for modern petrol and diesel engines.",
+      "zh": "全合成 5W-40，适用于现代汽油及柴油引擎。",
+      "ms": "Sintetik penuh 5W-40 untuk enjin petrol dan diesel moden."
+    },
+    "description": {
+      "en": "Fully synthetic high-performance multigrade with low-temperature flow and strong high-temperature shear stability. Suitable for turbocharged engines.",
+      "zh": "全合成高性能多级油，具备低温流动性及高温抗剪切稳定性，适用于涡轮增压引擎。",
+      "ms": "Multigrade sintetik penuh berprestasi tinggi dengan aliran suhu rendah dan kestabilan ricih suhu tinggi yang kuat. Sesuai untuk enjin berturbo."
+    },
+    "viscosity": "5W-40",
+    "apiRating": "API SN/CF",
+    "aceaRating": "ACEA A3/B4",
+    "packSizes": ["1L", "4L"],
+    "suitableFor": [
+      { "en": "Modern petrol", "zh": "现代汽油", "ms": "Petrol moden" },
+      { "en": "Turbocharged diesel", "zh": "涡轮增压柴油", "ms": "Diesel berturbo" }
+    ],
+    "benefits": [
+      {
+        "en": "Cold-start flow",
+        "zh": "冷启动流动",
+        "ms": "Aliran permulaan sejuk"
+      },
+      {
+        "en": "Turbo-ready shear stability",
+        "zh": "涡轮抗剪切稳定",
+        "ms": "Kestabilan ricih untuk turbo"
+      }
+    ],
+    "imageUrl": "/products/_uncategorized/placeholder.png"
+  },
+  {
+    "id": "ultra-hyd-46",
+    "category": "industrial-oil",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA HYD 46", "zh": "ULTRA HYD 46", "ms": "ULTRA HYD 46" },
+    "shortDescription": {
+      "en": "ISO VG 46 hydraulic oil for industrial systems.",
+      "zh": "适用于工业液压系统的 ISO VG 46 液压油。",
+      "ms": "Minyak hidraulik ISO VG 46 untuk sistem industri."
+    },
+    "description": {
+      "en": "Anti-wear hydraulic oil meeting ISO VG 46 specifications for general industrial hydraulic systems.",
+      "zh": "符合 ISO VG 46 规格的抗磨液压油，适用于一般工业液压系统。",
+      "ms": "Minyak hidraulik anti-haus yang memenuhi spesifikasi ISO VG 46 untuk sistem hidraulik industri am."
+    },
+    "viscosity": "ISO VG 46",
+    "packSizes": ["18L", "208L"],
+    "suitableFor": [
+      { "en": "Industrial hydraulics", "zh": "工业液压", "ms": "Hidraulik industri" }
+    ],
+    "benefits": [
+      {
+        "en": "Anti-wear additive package",
+        "zh": "抗磨添加剂配方",
+        "ms": "Pakej tambahan anti-haus"
+      }
+    ],
+    "imageUrl": "/products/_uncategorized/placeholder.png"
+  },
+  {
+    "id": "ultra-hyd-68",
+    "category": "industrial-oil",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA HYD 68", "zh": "ULTRA HYD 68", "ms": "ULTRA HYD 68" },
+    "shortDescription": {
+      "en": "ISO VG 68 hydraulic oil for heavy-duty applications.",
+      "zh": "适用于重型应用的 ISO VG 68 液压油。",
+      "ms": "Minyak hidraulik ISO VG 68 untuk aplikasi tugas berat."
+    },
+    "description": {
+      "en": "Higher-viscosity hydraulic oil for heavier-duty industrial systems and high-pressure applications.",
+      "zh": "黏度更高的液压油，适用于较重型工业系统及高压应用。",
+      "ms": "Minyak hidraulik kelikatan lebih tinggi untuk sistem industri tugas berat dan aplikasi tekanan tinggi."
+    },
+    "viscosity": "ISO VG 68",
+    "packSizes": ["18L", "208L"],
+    "suitableFor": [
+      { "en": "Heavy-duty hydraulics", "zh": "重型液压", "ms": "Hidraulik berat" }
+    ],
+    "benefits": [
+      {
+        "en": "High-pressure stability",
+        "zh": "高压稳定",
+        "ms": "Kestabilan tekanan tinggi"
+      }
+    ],
+    "imageUrl": "/products/_uncategorized/placeholder.png"
+  },
+  {
+    "id": "ultra-gl5-80w90",
+    "category": "gear-oil",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA GL-5 80W-90", "zh": "ULTRA GL-5 80W-90", "ms": "ULTRA GL-5 80W-90" },
+    "shortDescription": {
+      "en": "API GL-5 gear oil for hypoid differentials and manual gearboxes.",
+      "zh": "适用于双曲线差速器及手动变速箱的 API GL-5 齿轮油。",
+      "ms": "Minyak gear API GL-5 untuk pembeza hipoid dan kotak gear manual."
+    },
+    "description": {
+      "en": "Extreme-pressure GL-5 gear oil for hypoid differentials and heavy-load manual transmissions.",
+      "zh": "极压型 GL-5 齿轮油，适用于双曲线差速器及重载手动变速箱。",
+      "ms": "Minyak gear GL-5 tekanan ekstrim untuk pembeza hipoid dan transmisi manual beban berat."
+    },
+    "viscosity": "80W-90",
+    "apiRating": "API GL-5",
+    "packSizes": ["1L", "4L"],
+    "suitableFor": [
+      { "en": "Hypoid differentials", "zh": "双曲线差速器", "ms": "Pembeza hipoid" },
+      { "en": "Manual gearboxes", "zh": "手动变速箱", "ms": "Kotak gear manual" }
+    ],
+    "benefits": [
+      {
+        "en": "Extreme-pressure gear protection",
+        "zh": "极压齿轮保护",
+        "ms": "Perlindungan gear tekanan ekstrim"
+      }
+    ],
+    "imageUrl": "/products/_uncategorized/placeholder.png"
+  },
+  {
+    "id": "ultra-atf-dx-iii",
+    "category": "gear-oil",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA ATF DX-III", "zh": "ULTRA ATF DX-III", "ms": "ULTRA ATF DX-III" },
+    "shortDescription": {
+      "en": "Dexron III automatic transmission fluid.",
+      "zh": "Dexron III 自动变速箱油。",
+      "ms": "Cecair transmisi automatik Dexron III."
+    },
+    "description": {
+      "en": "Premium Dexron III ATF for automatic transmissions and power steering systems requiring DX-III specification.",
+      "zh": "优质 Dexron III ATF，适用于要求 DX-III 规格的自动变速箱及动力转向系统。",
+      "ms": "ATF Dexron III premium untuk transmisi automatik dan sistem stereng kuasa yang memerlukan spesifikasi DX-III."
+    },
+    "viscosity": "ATF DX-III",
+    "packSizes": ["1L", "4L"],
+    "suitableFor": [
+      { "en": "Automatic transmissions", "zh": "自动变速箱", "ms": "Transmisi automatik" },
+      { "en": "Power steering", "zh": "动力转向", "ms": "Stereng kuasa" }
+    ],
+    "benefits": [
+      {
+        "en": "Smooth shift performance",
+        "zh": "平稳换挡性能",
+        "ms": "Prestasi tukar gear lancar"
+      }
+    ],
+    "imageUrl": "/products/_uncategorized/placeholder.png"
+  }
+]

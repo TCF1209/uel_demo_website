@@ -1,0 +1,112 @@
+[
+  {
+    "id": "kl-ampang-autocare",
+    "name": "Ampang AutoCare",
+    "address": "Jalan Ampang, 55000 Kuala Lumpur",
+    "state": "Kuala Lumpur",
+    "city": "Ampang",
+    "phone": "+60123456001",
+    "whatsapp": "60123456001",
+    "services": ["engine-oil", "gear-oil"],
+    "coords": { "lat": 3.1612, "lng": 101.7544 }
+  },
+  {
+    "id": "kl-cheras-motor",
+    "name": "Cheras Motor Services",
+    "address": "Jalan Cheras, 56100 Kuala Lumpur",
+    "state": "Kuala Lumpur",
+    "city": "Cheras",
+    "phone": "+60123456002",
+    "whatsapp": "60123456002",
+    "services": ["engine-oil", "industrial-oil", "gear-oil"],
+    "coords": { "lat": 3.0712, "lng": 101.7501 }
+  },
+  {
+    "id": "sgr-pj-fastlane",
+    "name": "Fastlane PJ",
+    "address": "Jalan Gasing, 46000 Petaling Jaya, Selangor",
+    "state": "Selangor",
+    "city": "Petaling Jaya",
+    "phone": "+60123456003",
+    "whatsapp": "60123456003",
+    "services": ["engine-oil"],
+    "coords": { "lat": 3.0872, "lng": 101.6469 }
+  },
+  {
+    "id": "sgr-shah-alam-protec",
+    "name": "ProTec Auto Shah Alam",
+    "address": "Section 13, 40100 Shah Alam, Selangor",
+    "state": "Selangor",
+    "city": "Shah Alam",
+    "phone": "+60123456004",
+    "whatsapp": "60123456004",
+    "services": ["engine-oil", "industrial-oil"],
+    "coords": { "lat": 3.0833, "lng": 101.5333 }
+  },
+  {
+    "id": "sgr-klang-haulage",
+    "name": "Klang Haulage Workshop",
+    "address": "Pelabuhan Klang, 42000 Selangor",
+    "state": "Selangor",
+    "city": "Klang",
+    "phone": "+60123456005",
+    "whatsapp": "60123456005",
+    "services": ["industrial-oil", "gear-oil"],
+    "coords": { "lat": 3.0044, "lng": 101.4022 }
+  },
+  {
+    "id": "png-georgetown-motoworld",
+    "name": "Georgetown MotoWorld",
+    "address": "Lebuh Light, 10200 George Town, Penang",
+    "state": "Penang",
+    "city": "George Town",
+    "phone": "+60123456006",
+    "whatsapp": "60123456006",
+    "services": ["engine-oil", "gear-oil"],
+    "coords": { "lat": 5.4145, "lng": 100.3292 }
+  },
+  {
+    "id": "png-bayan-lepas-techoil",
+    "name": "TechOil Bayan Lepas",
+    "address": "Bayan Lepas Industrial Area, 11900 Penang",
+    "state": "Penang",
+    "city": "Bayan Lepas",
+    "phone": "+60123456007",
+    "whatsapp": "60123456007",
+    "services": ["industrial-oil"],
+    "coords": { "lat": 5.2833, "lng": 100.2667 }
+  },
+  {
+    "id": "png-butterworth-northport",
+    "name": "Northport Auto Butterworth",
+    "address": "Butterworth, 12000 Penang",
+    "state": "Penang",
+    "city": "Butterworth",
+    "phone": "+60123456008",
+    "whatsapp": "60123456008",
+    "services": ["engine-oil", "industrial-oil", "gear-oil"],
+    "coords": { "lat": 5.3993, "lng": 100.3635 }
+  },
+  {
+    "id": "jhr-jb-iskandar",
+    "name": "Iskandar Auto Centre",
+    "address": "Jalan Tebrau, 80300 Johor Bahru, Johor",
+    "state": "Johor",
+    "city": "Johor Bahru",
+    "phone": "+60123456009",
+    "whatsapp": "60123456009",
+    "services": ["engine-oil", "gear-oil"],
+    "coords": { "lat": 1.4927, "lng": 103.7414 }
+  },
+  {
+    "id": "jhr-skudai-machinery",
+    "name": "Skudai Machinery Services",
+    "address": "Jalan Skudai, 81300 Johor",
+    "state": "Johor",
+    "city": "Skudai",
+    "phone": "+60123456010",
+    "whatsapp": "60123456010",
+    "services": ["industrial-oil"],
+    "coords": { "lat": 1.5333, "lng": 103.65 }
+  }
+]

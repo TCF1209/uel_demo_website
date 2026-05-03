@@ -1,0 +1,29 @@
+[
+  {
+    "id": "engine-oil",
+    "name": {
+      "en": "Engine Oil",
+      "zh": "引擎机油",
+      "ms": "Minyak Enjin"
+    },
+    "accent": "blue"
+  },
+  {
+    "id": "industrial-oil",
+    "name": {
+      "en": "Industrial Oil",
+      "zh": "工业油",
+      "ms": "Minyak Industri"
+    },
+    "accent": "red"
+  },
+  {
+    "id": "gear-oil",
+    "name": {
+      "en": "Gear Oil",
+      "zh": "齿轮油",
+      "ms": "Minyak Gear"
+    },
+    "accent": "green"
+  }
+]

@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  /* Industrial dark base */
+  --color-bg-base: #0A0A0B;
+  --color-bg-elevated: #131316;
+  --color-bg-overlay: #1C1C20;
+  --color-border-subtle: #26262B;
+  --color-border-strong: #3A3A42;
+
+  /* Text */
+  --color-text-primary: #F5F2ED;
+  --color-text-secondary: #A8A39B;
+  --color-text-muted: #6B665E;
+
+  /* UEL droplet triad — category colors only */
+  --color-accent-blue: #2B6FB8;
+  --color-accent-red: #C53030;
+  --color-accent-green: #2F8F4E;
+
+  /* Hero accent — copper/gold (from ULTRA label) */
+  --color-accent-gold: #C9A052;
+  --color-accent-gold-hi: #E5C07B;
+
+  /* WhatsApp brand green — single allowed exception to dark/gold palette */
+  --color-whatsapp: #25D366;
+
+  /* Functional */
+  --color-success: #2F8F4E;
+  --color-danger: #C53030;
+  --color-info: #2B6FB8;
+
+  /* Fonts — wired in via next/font in layout */
+  --font-display: var(--font-archivo-black), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, "SF Mono", monospace;
+
+  /* Easing token — brief mandates smooth-out for purposeful motion */
+  --ease-smooth-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  background: var(--color-bg-base);
+  color: var(--color-text-primary);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Respect reduced-motion globally — Framer's useReducedMotion handles per-component */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

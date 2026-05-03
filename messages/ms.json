@@ -1,0 +1,38 @@
+{
+  "Nav": {
+    "home": "Laman Utama",
+    "about": "Tentang Kami",
+    "products": "Produk",
+    "whyUel": "Kenapa UEL",
+    "whereToBuy": "Tempat Beli",
+    "contact": "Hubungi"
+  },
+  "Common": {
+    "whatsappCta": "WhatsApp Kami",
+    "explore": "Lihat Produk",
+    "findWorkshop": "Cari Bengkel",
+    "viewDetails": "Lihat Butiran",
+    "viewRange": "Lihat Siri",
+    "loading": "Memuatkan..."
+  },
+  "Home": {
+    "eyebrow": "PERLINDUNGAN ENJIN // SEJAK [YEAR]",
+    "headline": "Direka untuk jalan raya Malaysia.",
+    "subcopy": "UEL — Unique Excellent Lubricant. Minyak enjin, industri dan gear premium yang diuji untuk haba tropika, kelembapan dan corak pemanduan tempatan.",
+    "stockistCta": "Sediakan UEL di bengkel anda.",
+    "workshopTeaserCount": "Dapatkan UEL di {count}+ bengkel seluruh negara"
+  },
+  "Categories": {
+    "engineOil": "Minyak Enjin",
+    "industrialOil": "Minyak Industri",
+    "gearOil": "Minyak Gear",
+    "engineOilDesc": "Untuk kereta dan motosikal — diuji untuk iklim Malaysia.",
+    "industrialOilDesc": "Minyak hidraulik, berat dan pemampat.",
+    "gearOilDesc": "Formulasi kotak gear, transmisi, ATF dan CVTF."
+  },
+  "Footer": {
+    "tagline": "UNIQUE EXCELLENT LUBRICANT",
+    "rights": "© {year} UEL Malaysia. Hak cipta terpelihara.",
+    "ssm": "SSM: [TODO: dapatkan SSM UEL]"
+  }
+}
