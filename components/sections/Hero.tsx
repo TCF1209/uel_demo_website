@@ -1,7 +1,8 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Image from "next/image";
-import { motion, useReducedMotion } from "framer-motion";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { SignatureDroplet } from "./SignatureDroplet";
@@ -25,16 +26,58 @@ const reducedItemVariants = {
   shown: { opacity: 1, transition: { duration: 0.4 } },
 };
 
-// Bottles cycled in the film-strip — pulled from the engine-oil range so
-// the strip reads as a coherent product band, not random SKUs.
-const stripBottles = [
-  { src: "/products/engine-oil/ultra-hd40.jpeg", alt: "ULTRA Engine Oil HD40" },
-  { src: "/products/engine-oil/ultra-5w30-fully-synthetic.jpeg", alt: "ULTRA 5W-30 Fully Synthetic" },
-  { src: "/products/engine-oil/ultra-10w30.jpeg", alt: "ULTRA Engine Oil 10W-30" },
-  { src: "/products/engine-oil/ultra-20w50.jpeg", alt: "ULTRA Engine Oil 20W-50" },
-  { src: "/products/engine-oil/ultra-5w30-semi-synthetic.jpeg", alt: "ULTRA 5W-30 Semi Synthetic" },
-  { src: "/products/engine-oil/ultra-10w40-semi-synthetic.jpeg", alt: "ULTRA 10W-40 Semi Synthetic" },
+// Three slot positions, fixed in space — bottles cycle through them.
+const slots = [
+  {
+    name: "center",
+    // largest, frontmost, no rotation
+    className: "left-1/2 top-[6%] w-[55%] -translate-x-1/2 z-20",
+    delay: 0,
+  },
+  {
+    name: "left",
+    // back-left, smaller, tilted
+    className: "left-[6%] top-[14%] w-[42%] z-10 rotate-[-7deg]",
+    delay: 0.15,
+  },
+  {
+    name: "right",
+    // back-right, smaller, tilted
+    className: "right-[6%] top-[18%] w-[40%] z-10 rotate-[7deg]",
+    delay: 0.3,
+  },
+] as const;
+
+type SlotName = typeof slots[number]["name"];
+type Scene = Record<SlotName, { src: string; alt: string }>;
+
+// Scenes the composition cycles through. Each scene picks visually
+// distinctive bottles so the change is noticeable but the depth layout
+// stays the same.
+const scenes: Scene[] = [
+  {
+    center: { src: "/products/engine-oil/ultra-hd40.jpeg", alt: "ULTRA Engine Oil HD40" },
+    left: { src: "/products/engine-oil/ultra-5w30-fully-synthetic.jpeg", alt: "ULTRA 5W-30 Fully Synthetic" },
+    right: { src: "/products/engine-oil/ultra-10w30.jpeg", alt: "ULTRA Engine Oil 10W-30" },
+  },
+  {
+    center: { src: "/products/engine-oil/ultra-5w30-fully-synthetic.jpeg", alt: "ULTRA 5W-30 Fully Synthetic" },
+    left: { src: "/products/engine-oil/ultra-15w40-mineral.jpeg", alt: "ULTRA Engine Oil 15W-40 Premium Mineral" },
+    right: { src: "/products/engine-oil/ultra-20w50.jpeg", alt: "ULTRA Engine Oil 20W-50" },
+  },
+  {
+    center: { src: "/products/engine-oil/ultra-10w40-semi-synthetic.jpeg", alt: "ULTRA 10W-40 Semi Synthetic" },
+    left: { src: "/products/engine-oil/ultra-5w30-semi-synthetic.jpeg", alt: "ULTRA 5W-30 Semi Synthetic" },
+    right: { src: "/products/engine-oil/ultra-15w40-semi-synthetic.jpeg", alt: "ULTRA 15W-40 Semi Synthetic" },
+  },
+  {
+    center: { src: "/products/engine-oil/ultra-20w50.jpeg", alt: "ULTRA Engine Oil 20W-50" },
+    left: { src: "/products/engine-oil/ultra-hd40.jpeg", alt: "ULTRA Engine Oil HD40" },
+    right: { src: "/products/gear-oil/ultra-atf-dexron-iii.jpeg", alt: "ULTRA Advanced ATF Dexron III" },
+  },
 ];
+
+const SCENE_INTERVAL_MS = 5000;
 
 export function Hero() {
   const t = useTranslations("Home");
@@ -42,9 +85,17 @@ export function Hero() {
   const reduce = useReducedMotion();
   const item = reduce ? reducedItemVariants : itemVariants;
 
-  // Duplicate for seamless loop. Animate -50% so the second half lands
-  // exactly where the first half started.
-  const stripDoubled = [...stripBottles, ...stripBottles];
+  const [sceneIdx, setSceneIdx] = useState(0);
+
+  useEffect(() => {
+    if (reduce) return;
+    const id = window.setInterval(() => {
+      setSceneIdx((i) => (i + 1) % scenes.length);
+    }, SCENE_INTERVAL_MS);
+    return () => window.clearInterval(id);
+  }, [reduce]);
+
+  const currentScene = scenes[sceneIdx];
 
   return (
     <section className="relative overflow-hidden">
@@ -98,51 +149,45 @@ export function Hero() {
           </motion.div>
         </div>
 
-        {/* Bottle film-strip + signature droplet */}
+        {/* Bottle composition + signature droplet — slots fixed, contents cycle */}
         <motion.div variants={item} className="lg:col-span-7">
-          <div className="relative mx-auto aspect-[5/6] w-full max-w-xl overflow-hidden">
+          <div className="relative mx-auto aspect-[5/6] w-full max-w-xl">
             <SignatureDroplet className="absolute inset-0 z-0 h-full w-full scale-[1.1]" />
 
-            {/* Edge fades — soft cinematic vignette so bottles enter and exit gracefully */}
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-y-0 left-0 z-30 w-16 bg-gradient-to-r from-bg-base to-transparent"
-            />
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-y-0 right-0 z-30 w-16 bg-gradient-to-l from-bg-base to-transparent"
-            />
-
-            <motion.div
-              className="absolute inset-y-[8%] left-0 z-10 flex items-center gap-6"
-              animate={reduce ? undefined : { x: ["0%", "-50%"] }}
-              transition={
-                reduce
-                  ? undefined
-                  : { duration: 50, ease: "linear", repeat: Infinity }
-              }
-            >
-              {stripDoubled.map((b, i) => (
+            {slots.map((slot) => {
+              const bottle = currentScene[slot.name];
+              return (
                 <div
-                  key={`${b.src}-${i}`}
-                  className="relative aspect-[3/4] h-full w-auto flex-shrink-0"
-                  style={{
-                    height: "100%",
-                  }}
+                  key={slot.name}
+                  className={`absolute aspect-[3/4] ${slot.className}`}
+                  style={{ transformOrigin: "center bottom" }}
                 >
-                  <div className="relative h-full" style={{ aspectRatio: "3 / 4" }}>
-                    <Image
-                      src={b.src}
-                      alt={b.alt}
-                      fill
-                      sizes="(max-width: 1024px) 50vw, 30vw"
-                      priority={i === 0}
-                      className="object-contain drop-shadow-[0_30px_40px_rgba(0,0,0,0.5)]"
-                    />
-                  </div>
+                  <AnimatePresence mode="sync">
+                    <motion.div
+                      key={bottle.src}
+                      className="absolute inset-0"
+                      initial={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.94 }}
+                      animate={reduce ? { opacity: 1 } : { opacity: 1, scale: 1 }}
+                      exit={reduce ? { opacity: 0 } : { opacity: 0, scale: 1.04 }}
+                      transition={{
+                        duration: 0.9,
+                        ease,
+                        delay: slot.delay,
+                      }}
+                    >
+                      <Image
+                        src={bottle.src}
+                        alt={bottle.alt}
+                        fill
+                        sizes="(max-width: 1024px) 60vw, 35vw"
+                        priority={slot.name === "center" && sceneIdx === 0}
+                        className="object-contain drop-shadow-[0_30px_40px_rgba(0,0,0,0.5)]"
+                      />
+                    </motion.div>
+                  </AnimatePresence>
                 </div>
-              ))}
-            </motion.div>
+              );
+            })}
           </div>
         </motion.div>
       </motion.div>
