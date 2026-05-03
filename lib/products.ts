@@ -47,3 +47,23 @@ export function getProductsByCategory(category: ProductCategory): Product[] {
 export function getFeaturedProduct(): Product | undefined {
   return products.find((p) => p.featured);
 }
+
+export function getCategory(id: ProductCategory): Category | undefined {
+  return categories.find((c) => c.id === id);
+}
+
+export function getRelatedProducts(slug: string, max = 3): Product[] {
+  const target = getProduct(slug);
+  if (!target) return [];
+  return products
+    .filter((p) => p.category === target.category && p.id !== target.id)
+    .slice(0, max);
+}
+
+export function getSubCategories(category: ProductCategory): string[] {
+  const set = new Set<string>();
+  for (const p of products) {
+    if (p.category === category && p.subCategory) set.add(p.subCategory);
+  }
+  return Array.from(set);
+}
