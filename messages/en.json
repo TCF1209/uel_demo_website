@@ -89,5 +89,25 @@
     "statLocalesLabel": "Languages supported",
     "ctaHeading": "Spec it. Stock it. Refit it.",
     "ctaBody": "Whether you drive a Myvi or run a fleet workshop, the next step is the same — talk to us."
+  },
+  "WhereToBuy": {
+    "eyebrow": "WHERE TO BUY // PARTNER WORKSHOPS",
+    "headline": "Find UEL at workshops nationwide.",
+    "lede": "{count} partner workshops across Malaysia. Filter by state or service to find the closest one stocking the grade you need.",
+    "filterAllStates": "All states",
+    "filterStateLabel": "State",
+    "filterServicesLabel": "Service",
+    "filterSearchLabel": "Search",
+    "filterSearchPlaceholder": "Workshop name or city",
+    "resultsCount": "{count, plural, =0 {No workshops match} one {1 workshop} other {# workshops}}",
+    "noResults": "No workshops match your filters. Try removing a constraint.",
+    "clearFilters": "Clear filters",
+    "callCta": "Call",
+    "whatsappCta": "WhatsApp",
+    "mapPlaceholderTitle": "Map view",
+    "mapPlaceholderBody": "Interactive map coming in the next release. For now, filter the list at left to find a workshop near you.",
+    "stockistEyebrow": "Run a workshop?",
+    "stockistHeading": "Stock UEL at your shop.",
+    "stockistBody": "Add UEL to your service menu. Our distribution team handles registration, first-order logistics, and counter signage."
   }
 }

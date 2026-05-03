@@ -89,5 +89,25 @@
     "statLocalesLabel": "Bahasa disokong",
     "ctaHeading": "Spesifikasi. Stok. Servis semula.",
     "ctaBody": "Sama ada anda memandu Myvi atau mengendalikan bengkel armada, langkah seterusnya sama — hubungi kami."
+  },
+  "WhereToBuy": {
+    "eyebrow": "TEMPAT BELI // BENGKEL RAKAN KONGSI",
+    "headline": "Cari UEL di bengkel seluruh negara.",
+    "lede": "{count} bengkel rakan kongsi di seluruh Malaysia. Tapis mengikut negeri atau perkhidmatan untuk mencari yang terdekat dengan stok gred yang anda perlukan.",
+    "filterAllStates": "Semua negeri",
+    "filterStateLabel": "Negeri",
+    "filterServicesLabel": "Perkhidmatan",
+    "filterSearchLabel": "Cari",
+    "filterSearchPlaceholder": "Nama bengkel atau bandar",
+    "resultsCount": "{count, plural, =0 {Tiada bengkel sepadan} other {# bengkel}}",
+    "noResults": "Tiada bengkel sepadan dengan tapisan anda. Cuba alih keluar satu kekangan.",
+    "clearFilters": "Kosongkan tapisan",
+    "callCta": "Hubungi",
+    "whatsappCta": "WhatsApp",
+    "mapPlaceholderTitle": "Pandangan peta",
+    "mapPlaceholderBody": "Peta interaktif akan tiba pada keluaran seterusnya. Buat masa ini, tapis senarai di kiri untuk mencari bengkel berdekatan.",
+    "stockistEyebrow": "Mengendalikan bengkel?",
+    "stockistHeading": "Sediakan UEL di kedai anda.",
+    "stockistBody": "Tambahkan UEL ke menu servis anda. Pasukan pengedaran kami uruskan pendaftaran, logistik pesanan pertama dan papan tanda kaunter."
   }
 }

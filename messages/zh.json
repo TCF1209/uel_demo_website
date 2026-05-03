@@ -89,5 +89,25 @@
     "statLocalesLabel": "支持语言",
     "ctaHeading": "选规格、备货、续用。",
     "ctaBody": "无论您驾驶 Myvi 或经营车队维修厂，下一步都一样 — 联系我们。"
+  },
+  "WhereToBuy": {
+    "eyebrow": "购买地点 // 合作维修厂",
+    "headline": "全国维修厂均可购得 UEL。",
+    "lede": "全马 {count} 间合作维修厂。按州属或服务筛选，找到最近且备有所需等级的维修厂。",
+    "filterAllStates": "全部州属",
+    "filterStateLabel": "州属",
+    "filterServicesLabel": "服务",
+    "filterSearchLabel": "搜寻",
+    "filterSearchPlaceholder": "维修厂名称或城市",
+    "resultsCount": "{count, plural, =0 {无符合条件的维修厂} other {共 # 间维修厂}}",
+    "noResults": "无符合您筛选条件的维修厂。请尝试移除某项条件。",
+    "clearFilters": "清除筛选",
+    "callCta": "致电",
+    "whatsappCta": "WhatsApp",
+    "mapPlaceholderTitle": "地图视图",
+    "mapPlaceholderBody": "互动地图将于下个版本推出。目前请使用左侧筛选器查找您附近的维修厂。",
+    "stockistEyebrow": "经营维修厂？",
+    "stockistHeading": "在您的维修厂供应 UEL。",
+    "stockistBody": "把 UEL 加入您的服务清单。我们的分销团队负责登记、首批订单物流及柜台招牌。"
   }
 }
