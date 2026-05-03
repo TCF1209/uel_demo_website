@@ -38,6 +38,12 @@ yarn-error.log*
 # want to commit a project-shared settings file.
 .claude/
 
+# Screenshots / scratch images at repo root (legitimate assets go in /public)
+/image.png
+/image*.png
+/screenshot*.png
+/Screenshot*.png
+
 # vercel
 .vercel
 
