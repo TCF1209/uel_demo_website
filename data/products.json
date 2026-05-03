@@ -4,256 +4,372 @@
     "category": "engine-oil",
     "subCategory": "premium-mineral",
     "series": "ULTRA",
-    "name": { "en": "ULTRA HD40", "zh": "ULTRA HD40", "ms": "ULTRA HD40" },
+    "name": { "en": "ULTRA Engine Oil HD40", "zh": "ULTRA 引擎机油 HD40", "ms": "ULTRA Minyak Enjin HD40" },
     "shortDescription": {
-      "en": "Heavy-duty mineral engine oil for diesel and high-mileage petrol engines.",
-      "zh": "适用于柴油及高里程汽油引擎的重型矿物机油。",
-      "ms": "Minyak enjin mineral berat untuk enjin diesel dan petrol berbatu tinggi."
+      "en": "Heavy-duty SAE 40 mineral oil for diesel and high-mileage petrol engines.",
+      "zh": "适用于柴油及高里程汽油引擎的 SAE 40 重型矿物机油。",
+      "ms": "Minyak mineral SAE 40 berat untuk enjin diesel dan petrol batu tinggi."
     },
     "description": {
-      "en": "ULTRA HD40 is a single-grade SAE 40 mineral engine oil formulated for heavy-duty diesel applications and older petrol engines that require thicker film strength under high heat. Engineered for Malaysian climate and stop-start city traffic.",
-      "zh": "ULTRA HD40 为单级 SAE 40 矿物引擎机油，专为重型柴油机及需要高温下油膜强度的旧型汽油引擎所配制。专为马来西亚气候与都市走停车流而设计。",
-      "ms": "ULTRA HD40 ialah minyak enjin mineral SAE 40 gred tunggal yang diformulasi untuk aplikasi diesel berat dan enjin petrol lama yang memerlukan ketahanan filem minyak pada haba tinggi. Direka untuk iklim Malaysia dan trafik berhenti-jalan bandar."
+      "en": "ULTRA HD40 is a single-grade SAE 40 premium mineral engine oil formulated for heavy-duty diesel applications and older petrol engines that need thicker film strength under tropical heat. Exceeds API SF/CF.",
+      "zh": "ULTRA HD40 为单级 SAE 40 优质矿物引擎机油，专为重型柴油机及需要在热带高温下保持油膜强度的老式汽油引擎所配制。超越 API SF/CF。",
+      "ms": "ULTRA HD40 ialah minyak enjin mineral premium SAE 40 gred tunggal untuk aplikasi diesel berat dan enjin petrol lama yang memerlukan ketahanan filem pada haba tropika. Melepasi API SF/CF."
     },
     "viscosity": "SAE 40",
-    "apiRating": "API CF/SL",
-    "packSizes": ["4L", "5L", "18L"],
+    "apiRating": "Exceeds API SF/CF",
+    "packSizes": ["4L"],
     "suitableFor": [
       { "en": "Heavy-duty diesel", "zh": "重型柴油", "ms": "Diesel berat" },
       { "en": "High-mileage petrol", "zh": "高里程汽油", "ms": "Petrol batu tinggi" }
     ],
     "benefits": [
-      {
-        "en": "High-temperature film strength",
-        "zh": "高温油膜稳定",
-        "ms": "Ketahanan filem pada haba tinggi"
-      },
-      {
-        "en": "Wear protection for older engines",
-        "zh": "保护旧引擎免受磨损",
-        "ms": "Perlindungan haus untuk enjin lama"
-      }
+      { "en": "High-temperature film strength", "zh": "高温油膜稳定", "ms": "Ketahanan filem pada haba tinggi" },
+      { "en": "Wear protection for older engines", "zh": "保护旧引擎免受磨损", "ms": "Perlindungan haus untuk enjin lama" }
     ],
-    "imageUrl": "/products/_uncategorized/placeholder.png",
+    "imageUrl": "/products/engine-oil/ultra-hd40.jpeg",
     "featured": true
   },
   {
     "id": "ultra-10w30",
     "category": "engine-oil",
-    "subCategory": "semi-synthetic",
+    "subCategory": "premium-mineral",
     "series": "ULTRA",
-    "name": { "en": "ULTRA 10W-30", "zh": "ULTRA 10W-30", "ms": "ULTRA 10W-30" },
+    "name": { "en": "ULTRA Engine Oil 10W-30", "zh": "ULTRA 引擎机油 10W-30", "ms": "ULTRA Minyak Enjin 10W-30" },
     "shortDescription": {
-      "en": "Semi-synthetic multigrade for everyday Malaysian cars.",
-      "zh": "适用于日常马来西亚车辆的半合成多级机油。",
-      "ms": "Multigrade separa sintetik untuk kereta Malaysia harian."
+      "en": "Premium mineral SAE 10W-30 for petrol and diesel engines.",
+      "zh": "适用于汽油及柴油引擎的优质矿物 SAE 10W-30。",
+      "ms": "SAE 10W-30 mineral premium untuk enjin petrol dan diesel."
     },
     "description": {
-      "en": "Balanced semi-synthetic 10W-30 for petrol passenger cars. Stable viscosity across hot tropical temperatures with strong cold-start protection.",
-      "zh": "为汽油轿车配制的均衡型半合成 10W-30。于热带高温下保持稳定黏度，并提供良好的冷启动保护。",
-      "ms": "10W-30 separa sintetik seimbang untuk kereta penumpang petrol. Kelikatan stabil pada suhu tropika tinggi dengan perlindungan permulaan sejuk yang baik."
+      "en": "Balanced multigrade 10W-30 mineral oil for everyday Malaysian cars. Stable viscosity across hot tropical temperatures with strong cold-start protection. API SL/CF.",
+      "zh": "为日常马来西亚车辆配制的均衡型多级 10W-30 矿物机油。在热带高温下保持稳定黏度，并提供良好的冷启动保护。API SL/CF。",
+      "ms": "Minyak mineral multigrade 10W-30 seimbang untuk kereta Malaysia harian. Kelikatan stabil pada suhu tropika tinggi dengan perlindungan permulaan sejuk yang baik. API SL/CF."
     },
-    "viscosity": "10W-30",
-    "apiRating": "API SN",
-    "packSizes": ["1L", "4L"],
+    "viscosity": "SAE 10W-30",
+    "apiRating": "API SL/CF",
+    "packSizes": ["4L"],
     "suitableFor": [
-      { "en": "Petrol passenger cars", "zh": "汽油轿车", "ms": "Kereta penumpang petrol" }
+      { "en": "Petrol engines", "zh": "汽油引擎", "ms": "Enjin petrol" },
+      { "en": "Diesel engines", "zh": "柴油引擎", "ms": "Enjin diesel" }
     ],
     "benefits": [
-      {
-        "en": "Year-round Malaysian climate stability",
-        "zh": "全年适应马来西亚气候",
-        "ms": "Kestabilan iklim Malaysia sepanjang tahun"
-      }
+      { "en": "Year-round Malaysian climate stability", "zh": "全年适应马来西亚气候", "ms": "Kestabilan iklim Malaysia sepanjang tahun" },
+      { "en": "Reliable cold-start flow", "zh": "稳定冷启动流动", "ms": "Aliran permulaan sejuk yang stabil" }
     ],
-    "imageUrl": "/products/_uncategorized/placeholder.png"
+    "imageUrl": "/products/engine-oil/ultra-10w30.jpeg"
   },
   {
     "id": "ultra-20w50",
     "category": "engine-oil",
     "subCategory": "premium-mineral",
     "series": "ULTRA",
-    "name": { "en": "ULTRA 20W-50", "zh": "ULTRA 20W-50", "ms": "ULTRA 20W-50" },
+    "name": { "en": "ULTRA Engine Oil 20W-50", "zh": "ULTRA 引擎机油 20W-50", "ms": "ULTRA Minyak Enjin 20W-50" },
     "shortDescription": {
-      "en": "Premium mineral 20W-50 for high-mileage and tropical conditions.",
-      "zh": "适用于高里程及热带环境的优质矿物 20W-50。",
-      "ms": "20W-50 mineral premium untuk batu tinggi dan keadaan tropika."
+      "en": "Premium mineral SAE 20W-50 for high-mileage and tropical conditions.",
+      "zh": "适用于高里程及热带环境的优质矿物 SAE 20W-50。",
+      "ms": "SAE 20W-50 mineral premium untuk batu tinggi dan keadaan tropika."
     },
     "description": {
-      "en": "Heavier multigrade 20W-50 ideal for older Malaysian cars with higher mileage. Strong oil pressure retention under prolonged heat.",
-      "zh": "较重的多级 20W-50，适合高里程的旧式马来西亚车辆。在长时间高温下保持优良的油压。",
-      "ms": "Multigrade 20W-50 yang lebih berat sesuai untuk kereta lama batu tinggi. Pengekalan tekanan minyak yang kuat dalam haba berpanjangan."
+      "en": "Heavier multigrade 20W-50 mineral oil ideal for older Malaysian cars with higher mileage. Maintains oil pressure under prolonged heat. API SL/CF.",
+      "zh": "较重的 20W-50 多级矿物机油，适合高里程的旧式马来西亚车辆。在长时间高温下保持油压。API SL/CF。",
+      "ms": "Minyak mineral multigrade 20W-50 yang lebih berat sesuai untuk kereta Malaysia lama batu tinggi. Mengekalkan tekanan minyak dalam haba berpanjangan. API SL/CF."
     },
-    "viscosity": "20W-50",
-    "apiRating": "API SL",
-    "packSizes": ["4L", "5L"],
+    "viscosity": "SAE 20W-50",
+    "apiRating": "API SL/CF",
+    "packSizes": ["1L", "4L"],
     "suitableFor": [
-      { "en": "High-mileage petrol cars", "zh": "高里程汽油车", "ms": "Kereta petrol batu tinggi" }
+      { "en": "High-mileage petrol cars", "zh": "高里程汽油车", "ms": "Kereta petrol batu tinggi" },
+      { "en": "Diesel engines", "zh": "柴油引擎", "ms": "Enjin diesel" }
     ],
     "benefits": [
-      {
-        "en": "Maintains pressure in hot conditions",
-        "zh": "高温下保持油压",
-        "ms": "Mengekalkan tekanan dalam keadaan panas"
-      }
+      { "en": "Maintains pressure in hot conditions", "zh": "高温下保持油压", "ms": "Mengekalkan tekanan dalam keadaan panas" }
     ],
-    "imageUrl": "/products/_uncategorized/placeholder.png"
+    "imageUrl": "/products/engine-oil/ultra-20w50.jpeg"
   },
   {
-    "id": "ultra-5w40",
+    "id": "ultra-5w30-semi-synthetic",
+    "category": "engine-oil",
+    "subCategory": "semi-synthetic",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA Engine Oil 5W-30 Semi Synthetic", "zh": "ULTRA 引擎机油 5W-30 半合成", "ms": "ULTRA Minyak Enjin 5W-30 Separa Sintetik" },
+    "shortDescription": {
+      "en": "Semi synthetic SAE 5W-30 for petrol and diesel engines. ILSAC GF-7A.",
+      "zh": "适用于汽油及柴油引擎的半合成 SAE 5W-30。ILSAC GF-7A。",
+      "ms": "SAE 5W-30 separa sintetik untuk enjin petrol dan diesel. ILSAC GF-7A."
+    },
+    "description": {
+      "en": "Semi synthetic 5W-30 with low-temperature flow and high-temperature stability. Meets ILSAC GF-7A and API SQ/CF, suitable for modern petrol and diesel engines including direct-injection and turbocharged.",
+      "zh": "半合成 5W-30，具备低温流动性及高温稳定性。符合 ILSAC GF-7A 及 API SQ/CF，适用于包括直喷与涡轮增压在内的现代汽油及柴油引擎。",
+      "ms": "5W-30 separa sintetik dengan aliran suhu rendah dan kestabilan suhu tinggi. Memenuhi ILSAC GF-7A dan API SQ/CF, sesuai untuk enjin petrol dan diesel moden termasuk suntikan terus dan berturbo."
+    },
+    "viscosity": "SAE 5W-30",
+    "apiRating": "API SQ/CF",
+    "oemApprovals": ["ILSAC GF-7A"],
+    "packSizes": ["4L"],
+    "suitableFor": [
+      { "en": "Modern petrol engines", "zh": "现代汽油引擎", "ms": "Enjin petrol moden" },
+      { "en": "Modern diesel engines", "zh": "现代柴油引擎", "ms": "Enjin diesel moden" }
+    ],
+    "benefits": [
+      { "en": "Cold-start flow", "zh": "冷启动流动", "ms": "Aliran permulaan sejuk" },
+      { "en": "Fuel economy support", "zh": "节油性能", "ms": "Sokongan ekonomi bahan api" }
+    ],
+    "imageUrl": "/products/engine-oil/ultra-5w30-semi-synthetic.jpeg"
+  },
+  {
+    "id": "ultra-5w30-fully-synthetic",
     "category": "engine-oil",
     "subCategory": "fully-synthetic",
     "series": "ULTRA",
-    "name": { "en": "ULTRA 5W-40", "zh": "ULTRA 5W-40", "ms": "ULTRA 5W-40" },
+    "name": { "en": "ULTRA Engine Oil 5W-30 Fully Synthetic", "zh": "ULTRA 引擎机油 5W-30 全合成", "ms": "ULTRA Minyak Enjin 5W-30 Sintetik Penuh" },
     "shortDescription": {
-      "en": "Fully synthetic 5W-40 for modern petrol and diesel engines.",
-      "zh": "全合成 5W-40，适用于现代汽油及柴油引擎。",
-      "ms": "Sintetik penuh 5W-40 untuk enjin petrol dan diesel moden."
+      "en": "Fully synthetic SAE 5W-30 for modern petrol and diesel. ILSAC GF-7A.",
+      "zh": "适用于现代汽油及柴油引擎的全合成 SAE 5W-30。ILSAC GF-7A。",
+      "ms": "SAE 5W-30 sintetik penuh untuk enjin petrol dan diesel moden. ILSAC GF-7A."
     },
     "description": {
-      "en": "Fully synthetic high-performance multigrade with low-temperature flow and strong high-temperature shear stability. Suitable for turbocharged engines.",
-      "zh": "全合成高性能多级油，具备低温流动性及高温抗剪切稳定性，适用于涡轮增压引擎。",
-      "ms": "Multigrade sintetik penuh berprestasi tinggi dengan aliran suhu rendah dan kestabilan ricih suhu tinggi yang kuat. Sesuai untuk enjin berturbo."
+      "en": "Fully synthetic high-performance 5W-30 with excellent low-temperature flow and high-temperature shear stability. Meets ILSAC GF-7A and API SQ/CF, ideal for turbocharged and direct-injection engines.",
+      "zh": "全合成高性能 5W-30，具备出色的低温流动性及高温抗剪切稳定性。符合 ILSAC GF-7A 及 API SQ/CF，特别适用于涡轮增压及直喷引擎。",
+      "ms": "Sintetik penuh berprestasi tinggi 5W-30 dengan aliran suhu rendah dan kestabilan ricih suhu tinggi yang cemerlang. Memenuhi ILSAC GF-7A dan API SQ/CF, sesuai untuk enjin berturbo dan suntikan terus."
     },
-    "viscosity": "5W-40",
-    "apiRating": "API SN/CF",
-    "aceaRating": "ACEA A3/B4",
-    "packSizes": ["1L", "4L"],
+    "viscosity": "SAE 5W-30",
+    "apiRating": "API SQ/CF",
+    "oemApprovals": ["ILSAC GF-7A"],
+    "packSizes": ["4L"],
     "suitableFor": [
-      { "en": "Modern petrol", "zh": "现代汽油", "ms": "Petrol moden" },
-      { "en": "Turbocharged diesel", "zh": "涡轮增压柴油", "ms": "Diesel berturbo" }
+      { "en": "Turbocharged engines", "zh": "涡轮增压引擎", "ms": "Enjin berturbo" },
+      { "en": "Direct-injection engines", "zh": "直喷引擎", "ms": "Enjin suntikan terus" }
     ],
     "benefits": [
-      {
-        "en": "Cold-start flow",
-        "zh": "冷启动流动",
-        "ms": "Aliran permulaan sejuk"
-      },
-      {
-        "en": "Turbo-ready shear stability",
-        "zh": "涡轮抗剪切稳定",
-        "ms": "Kestabilan ricih untuk turbo"
-      }
+      { "en": "Maximum protection at temperature extremes", "zh": "极端温度下的最大保护", "ms": "Perlindungan maksimum dalam suhu melampau" },
+      { "en": "Extended drain intervals", "zh": "延长换油里程", "ms": "Selang tukar minyak yang dipanjangkan" }
     ],
-    "imageUrl": "/products/_uncategorized/placeholder.png"
+    "imageUrl": "/products/engine-oil/ultra-5w30-fully-synthetic.jpeg"
   },
   {
-    "id": "ultra-hyd-46",
-    "category": "industrial-oil",
+    "id": "ultra-10w40-semi-synthetic",
+    "category": "engine-oil",
+    "subCategory": "semi-synthetic",
     "series": "ULTRA",
-    "name": { "en": "ULTRA HYD 46", "zh": "ULTRA HYD 46", "ms": "ULTRA HYD 46" },
+    "name": { "en": "ULTRA Engine Oil 10W-40 Semi Synthetic", "zh": "ULTRA 引擎机油 10W-40 半合成", "ms": "ULTRA Minyak Enjin 10W-40 Separa Sintetik" },
     "shortDescription": {
-      "en": "ISO VG 46 hydraulic oil for industrial systems.",
-      "zh": "适用于工业液压系统的 ISO VG 46 液压油。",
-      "ms": "Minyak hidraulik ISO VG 46 untuk sistem industri."
+      "en": "Semi synthetic SAE 10W-40 for petrol and diesel engines.",
+      "zh": "适用于汽油及柴油引擎的半合成 SAE 10W-40。",
+      "ms": "SAE 10W-40 separa sintetik untuk enjin petrol dan diesel."
     },
     "description": {
-      "en": "Anti-wear hydraulic oil meeting ISO VG 46 specifications for general industrial hydraulic systems.",
-      "zh": "符合 ISO VG 46 规格的抗磨液压油，适用于一般工业液压系统。",
-      "ms": "Minyak hidraulik anti-haus yang memenuhi spesifikasi ISO VG 46 untuk sistem hidraulik industri am."
+      "en": "Versatile semi synthetic 10W-40 balancing protection and value. Meets API SQ/CF for modern petrol and diesel engines under Malaysian conditions.",
+      "zh": "用途广泛的半合成 10W-40，兼顾保护与性价比。符合 API SQ/CF，适用于马来西亚气候下的现代汽油及柴油引擎。",
+      "ms": "10W-40 separa sintetik serba boleh yang mengimbangi perlindungan dan nilai. Memenuhi API SQ/CF untuk enjin petrol dan diesel moden dalam keadaan Malaysia."
     },
-    "viscosity": "ISO VG 46",
-    "packSizes": ["18L", "208L"],
+    "viscosity": "SAE 10W-40",
+    "apiRating": "API SQ/CF",
+    "packSizes": ["4L"],
     "suitableFor": [
-      { "en": "Industrial hydraulics", "zh": "工业液压", "ms": "Hidraulik industri" }
+      { "en": "Petrol engines", "zh": "汽油引擎", "ms": "Enjin petrol" },
+      { "en": "Diesel engines", "zh": "柴油引擎", "ms": "Enjin diesel" }
     ],
     "benefits": [
-      {
-        "en": "Anti-wear additive package",
-        "zh": "抗磨添加剂配方",
-        "ms": "Pakej tambahan anti-haus"
-      }
+      { "en": "Balanced cold-start and high-heat protection", "zh": "兼顾冷启动与高温保护", "ms": "Perlindungan permulaan sejuk dan haba tinggi yang seimbang" }
     ],
-    "imageUrl": "/products/_uncategorized/placeholder.png"
+    "imageUrl": "/products/engine-oil/ultra-10w40-semi-synthetic.jpeg"
   },
   {
-    "id": "ultra-hyd-68",
-    "category": "industrial-oil",
+    "id": "ultra-15w40-semi-synthetic",
+    "category": "engine-oil",
+    "subCategory": "semi-synthetic",
     "series": "ULTRA",
-    "name": { "en": "ULTRA HYD 68", "zh": "ULTRA HYD 68", "ms": "ULTRA HYD 68" },
+    "name": { "en": "ULTRA Engine Oil 15W-40 Semi Synthetic", "zh": "ULTRA 引擎机油 15W-40 半合成", "ms": "ULTRA Minyak Enjin 15W-40 Separa Sintetik" },
     "shortDescription": {
-      "en": "ISO VG 68 hydraulic oil for heavy-duty applications.",
-      "zh": "适用于重型应用的 ISO VG 68 液压油。",
-      "ms": "Minyak hidraulik ISO VG 68 untuk aplikasi tugas berat."
+      "en": "Semi synthetic SAE 15W-40 for petrol and diesel engines.",
+      "zh": "适用于汽油及柴油引擎的半合成 SAE 15W-40。",
+      "ms": "SAE 15W-40 separa sintetik untuk enjin petrol dan diesel."
     },
     "description": {
-      "en": "Higher-viscosity hydraulic oil for heavier-duty industrial systems and high-pressure applications.",
-      "zh": "黏度更高的液压油，适用于较重型工业系统及高压应用。",
-      "ms": "Minyak hidraulik kelikatan lebih tinggi untuk sistem industri tugas berat dan aplikasi tekanan tinggi."
+      "en": "Semi synthetic 15W-40 formulated for tropical climates and mixed fleet use. API SQ/CF.",
+      "zh": "为热带气候及混合车队用途配制的半合成 15W-40。API SQ/CF。",
+      "ms": "15W-40 separa sintetik yang diformulasi untuk iklim tropika dan kegunaan armada campuran. API SQ/CF."
+    },
+    "viscosity": "SAE 15W-40",
+    "apiRating": "API SQ/CF",
+    "packSizes": ["4L"],
+    "suitableFor": [
+      { "en": "Petrol engines", "zh": "汽油引擎", "ms": "Enjin petrol" },
+      { "en": "Diesel engines", "zh": "柴油引擎", "ms": "Enjin diesel" }
+    ],
+    "benefits": [
+      { "en": "Tropical-climate stability", "zh": "热带气候稳定性", "ms": "Kestabilan iklim tropika" }
+    ],
+    "imageUrl": "/products/engine-oil/ultra-15w40-semi-synthetic.jpeg"
+  },
+  {
+    "id": "ultra-15w40-mineral",
+    "category": "engine-oil",
+    "subCategory": "premium-mineral",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA Engine Oil 15W-40 Premium Mineral", "zh": "ULTRA 引擎机油 15W-40 优质矿物", "ms": "ULTRA Minyak Enjin 15W-40 Mineral Premium" },
+    "shortDescription": {
+      "en": "Premium mineral SAE 15W-40 for petrol and diesel engines.",
+      "zh": "适用于汽油及柴油引擎的优质矿物 SAE 15W-40。",
+      "ms": "SAE 15W-40 mineral premium untuk enjin petrol dan diesel."
+    },
+    "description": {
+      "en": "Premium mineral 15W-40 in a 7L pack for fleet operators and workshops doing higher-volume servicing. API SM/CF.",
+      "zh": "7L 装的优质矿物 15W-40，适合车队营运者及大量保养的维修厂。API SM/CF。",
+      "ms": "15W-40 mineral premium dalam pek 7L untuk pengendali armada dan bengkel yang melakukan servis bervolum tinggi. API SM/CF."
+    },
+    "viscosity": "SAE 15W-40",
+    "apiRating": "API SM/CF",
+    "packSizes": ["7L"],
+    "suitableFor": [
+      { "en": "Fleet petrol engines", "zh": "车队汽油引擎", "ms": "Enjin petrol armada" },
+      { "en": "Fleet diesel engines", "zh": "车队柴油引擎", "ms": "Enjin diesel armada" }
+    ],
+    "benefits": [
+      { "en": "Cost-effective for higher-volume use", "zh": "大量使用具成本效益", "ms": "Kos efektif untuk penggunaan bervolum tinggi" }
+    ],
+    "imageUrl": "/products/engine-oil/ultra-15w40-mineral.jpeg"
+  },
+  {
+    "id": "ultra-15w40-adventure",
+    "category": "engine-oil",
+    "subCategory": "synthetic-blended",
+    "series": "ULTRA 4x4 Adventure",
+    "name": { "en": "ULTRA 4x4 Adventure Engine Oil 15W-40", "zh": "ULTRA 4x4 Adventure 引擎机油 15W-40", "ms": "ULTRA 4x4 Adventure Minyak Enjin 15W-40" },
+    "shortDescription": {
+      "en": "Synthetic blended SAE 15W-40 for 4x4 and off-road diesel and petrol.",
+      "zh": "适用于 4x4 与越野柴油及汽油引擎的合成混合 SAE 15W-40。",
+      "ms": "SAE 15W-40 campuran sintetik untuk 4x4 dan diesel/petrol luar jalan."
+    },
+    "description": {
+      "en": "Synthetic blended 15W-40 in a 7.5L bucket built for 4x4, off-road and heavy-duty pickup use. Exceeds API SL/CK-4 for diesel and petrol engines under heavy load and dust.",
+      "zh": "7.5L 桶装的合成混合 15W-40，专为 4x4、越野及重型皮卡使用而设。在重负荷与多尘环境下，柴油及汽油引擎超越 API SL/CK-4。",
+      "ms": "15W-40 campuran sintetik dalam baldi 7.5L yang dibina untuk 4x4, luar jalan dan trak berat. Melepasi API SL/CK-4 untuk enjin diesel dan petrol di bawah beban berat dan habuk."
+    },
+    "viscosity": "SAE 15W-40",
+    "apiRating": "API SL/CK-4",
+    "packSizes": ["7.5L"],
+    "suitableFor": [
+      { "en": "4x4 vehicles", "zh": "4x4 车辆", "ms": "Kenderaan 4x4" },
+      { "en": "Off-road diesel", "zh": "越野柴油", "ms": "Diesel luar jalan" },
+      { "en": "Heavy-duty pickup", "zh": "重型皮卡", "ms": "Trak berat" }
+    ],
+    "benefits": [
+      { "en": "Heavy-load wear protection", "zh": "重负荷抗磨保护", "ms": "Perlindungan haus beban berat" },
+      { "en": "Built for dusty off-road conditions", "zh": "专为多尘越野环境设计", "ms": "Dibina untuk keadaan luar jalan berhabuk" }
+    ],
+    "imageUrl": "/products/engine-oil/ultra-15w40-adventure.jpeg"
+  },
+  {
+    "id": "ultra-aws32",
+    "category": "industrial-oil",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA Hydraulic Fluid AWS 32", "zh": "ULTRA 液压油 AWS 32", "ms": "ULTRA Minyak Hidraulik AWS 32" },
+    "shortDescription": {
+      "en": "Anti-wear hydraulic oil ISO VG 32.",
+      "zh": "抗磨液压油 ISO VG 32。",
+      "ms": "Minyak hidraulik anti-haus ISO VG 32."
+    },
+    "description": {
+      "en": "Anti-wear hydraulic fluid meeting ISO VG 32 for general industrial hydraulics, mobile equipment, and lower-viscosity systems. Strong oxidation and hydrolytic stability for extended fluid life.",
+      "zh": "符合 ISO VG 32 的抗磨液压油，适用于一般工业液压系统、移动设备及较低黏度系统。优良的抗氧化与水解稳定性，可延长油品寿命。",
+      "ms": "Cecair hidraulik anti-haus yang memenuhi ISO VG 32 untuk hidraulik industri am, peralatan mudah alih dan sistem kelikatan rendah. Kestabilan oksida dan hidrolitik yang kuat untuk hayat cecair yang dipanjangkan."
+    },
+    "viscosity": "ISO VG 32",
+    "oemApprovals": ["ISO 11158", "ASTM D-6158", "DIN 51524-2"],
+    "packSizes": ["18L"],
+    "suitableFor": [
+      { "en": "Industrial hydraulics", "zh": "工业液压", "ms": "Hidraulik industri" },
+      { "en": "Mobile equipment", "zh": "移动设备", "ms": "Peralatan mudah alih" }
+    ],
+    "benefits": [
+      { "en": "Extended operating life", "zh": "延长使用寿命", "ms": "Hayat operasi yang dipanjangkan" },
+      { "en": "Superior wear protection", "zh": "卓越抗磨保护", "ms": "Perlindungan haus unggul" },
+      { "en": "Excellent water separation", "zh": "出色的水分离性", "ms": "Pemisahan air yang cemerlang" }
+    ],
+    "imageUrl": "/products/industrial-oil/ultra-aws32.jpeg"
+  },
+  {
+    "id": "ultra-aws68",
+    "category": "industrial-oil",
+    "series": "ULTRA",
+    "name": { "en": "ULTRA Hydraulic Fluid AWS 68", "zh": "ULTRA 液压油 AWS 68", "ms": "ULTRA Minyak Hidraulik AWS 68" },
+    "shortDescription": {
+      "en": "Anti-wear hydraulic oil ISO VG 68 for heavy-duty applications.",
+      "zh": "适用于重型应用的抗磨液压油 ISO VG 68。",
+      "ms": "Minyak hidraulik anti-haus ISO VG 68 untuk aplikasi tugas berat."
+    },
+    "description": {
+      "en": "Higher-viscosity anti-wear hydraulic fluid (ISO VG 68) for heavy-duty industrial systems, construction machinery, and high-pressure applications.",
+      "zh": "黏度较高的抗磨液压油（ISO VG 68），适用于重型工业系统、工程机械及高压应用。",
+      "ms": "Cecair hidraulik anti-haus kelikatan lebih tinggi (ISO VG 68) untuk sistem industri tugas berat, jentera pembinaan dan aplikasi tekanan tinggi."
     },
     "viscosity": "ISO VG 68",
-    "packSizes": ["18L", "208L"],
+    "packSizes": ["18L"],
     "suitableFor": [
-      { "en": "Heavy-duty hydraulics", "zh": "重型液压", "ms": "Hidraulik berat" }
+      { "en": "Heavy-duty hydraulics", "zh": "重型液压", "ms": "Hidraulik berat" },
+      { "en": "Construction machinery", "zh": "工程机械", "ms": "Jentera pembinaan" },
+      { "en": "Excavators and loaders", "zh": "挖掘机与装载机", "ms": "Penggali dan pemuat" }
     ],
     "benefits": [
-      {
-        "en": "High-pressure stability",
-        "zh": "高压稳定",
-        "ms": "Kestabilan tekanan tinggi"
-      }
+      { "en": "High-pressure stability", "zh": "高压稳定", "ms": "Kestabilan tekanan tinggi" },
+      { "en": "Anti-wear additive package", "zh": "抗磨添加剂配方", "ms": "Pakej tambahan anti-haus" }
     ],
-    "imageUrl": "/products/_uncategorized/placeholder.png"
+    "imageUrl": "/products/industrial-oil/ultra-aws68.jpeg"
   },
   {
-    "id": "ultra-gl5-80w90",
-    "category": "gear-oil",
-    "series": "ULTRA",
-    "name": { "en": "ULTRA GL-5 80W-90", "zh": "ULTRA GL-5 80W-90", "ms": "ULTRA GL-5 80W-90" },
+    "id": "ultra-cut-coolant",
+    "category": "industrial-oil",
+    "series": "ULTRA CUT",
+    "name": { "en": "ULTRA CUT Water-Soluble Cutting Fluid Coolant", "zh": "ULTRA CUT 水溶性切削液冷却剂", "ms": "ULTRA CUT Cecair Pemotong Larut Air" },
     "shortDescription": {
-      "en": "API GL-5 gear oil for hypoid differentials and manual gearboxes.",
-      "zh": "适用于双曲线差速器及手动变速箱的 API GL-5 齿轮油。",
-      "ms": "Minyak gear API GL-5 untuk pembeza hipoid dan kotak gear manual."
+      "en": "Water-soluble cutting fluid coolant for metalworking.",
+      "zh": "适用于金属加工的水溶性切削液冷却剂。",
+      "ms": "Cecair pemotong larut air untuk kerja logam."
     },
     "description": {
-      "en": "Extreme-pressure GL-5 gear oil for hypoid differentials and heavy-load manual transmissions.",
-      "zh": "极压型 GL-5 齿轮油，适用于双曲线差速器及重载手动变速箱。",
-      "ms": "Minyak gear GL-5 tekanan ekstrim untuk pembeza hipoid dan transmisi manual beban berat."
+      "en": "ULTRA CUT is a water-soluble cutting fluid coolant for general metalworking — turning, milling, drilling and grinding — providing cooling, lubrication, and corrosion protection on ferrous and most non-ferrous metals.",
+      "zh": "ULTRA CUT 为通用金属加工（车削、铣削、钻孔与磨削）所设的水溶性切削液冷却剂，提供冷却、润滑及对铁与多数非铁金属的防锈保护。",
+      "ms": "ULTRA CUT ialah cecair pemotong larut air untuk kerja logam am — mencanai, mengisar, menggerudi dan mencanai — menyediakan penyejukan, pelinciran dan perlindungan kakisan pada logam ferus dan kebanyakan logam bukan ferus."
     },
-    "viscosity": "80W-90",
-    "apiRating": "API GL-5",
-    "packSizes": ["1L", "4L"],
+    "viscosity": "Water-soluble emulsion",
+    "packSizes": ["18L"],
     "suitableFor": [
-      { "en": "Hypoid differentials", "zh": "双曲线差速器", "ms": "Pembeza hipoid" },
-      { "en": "Manual gearboxes", "zh": "手动变速箱", "ms": "Kotak gear manual" }
+      { "en": "Turning, milling, drilling", "zh": "车削、铣削、钻孔", "ms": "Mencanai, mengisar, menggerudi" },
+      { "en": "Grinding operations", "zh": "磨削加工", "ms": "Operasi pengilangan" }
     ],
     "benefits": [
-      {
-        "en": "Extreme-pressure gear protection",
-        "zh": "极压齿轮保护",
-        "ms": "Perlindungan gear tekanan ekstrim"
-      }
+      { "en": "Cooling and lubrication in one", "zh": "冷却与润滑一体", "ms": "Penyejukan dan pelinciran dalam satu" },
+      { "en": "Corrosion protection", "zh": "防锈保护", "ms": "Perlindungan kakisan" }
     ],
-    "imageUrl": "/products/_uncategorized/placeholder.png"
+    "imageUrl": "/products/industrial-oil/ultra-cut-coolant.jpeg"
   },
   {
-    "id": "ultra-atf-dx-iii",
+    "id": "ultra-atf-dexron-iii",
     "category": "gear-oil",
-    "series": "ULTRA",
-    "name": { "en": "ULTRA ATF DX-III", "zh": "ULTRA ATF DX-III", "ms": "ULTRA ATF DX-III" },
+    "series": "ULTRA Advanced",
+    "name": { "en": "ULTRA Advanced ATF Dexron III", "zh": "ULTRA Advanced ATF Dexron III", "ms": "ULTRA Advanced ATF Dexron III" },
     "shortDescription": {
-      "en": "Dexron III automatic transmission fluid.",
-      "zh": "Dexron III 自动变速箱油。",
-      "ms": "Cecair transmisi automatik Dexron III."
+      "en": "Fully synthetic Dexron III automatic transmission fluid.",
+      "zh": "全合成 Dexron III 自动变速箱油。",
+      "ms": "Cecair transmisi automatik Dexron III sintetik penuh."
     },
     "description": {
-      "en": "Premium Dexron III ATF for automatic transmissions and power steering systems requiring DX-III specification.",
-      "zh": "优质 Dexron III ATF，适用于要求 DX-III 规格的自动变速箱及动力转向系统。",
-      "ms": "ATF Dexron III premium untuk transmisi automatik dan sistem stereng kuasa yang memerlukan spesifikasi DX-III."
+      "en": "Fully synthetic Dexron III ATF for automatic transmissions and power steering systems requiring DX-III specification. Smooth shifting, anti-shudder performance, and broad operating temperature range.",
+      "zh": "全合成 Dexron III ATF，适用于要求 DX-III 规格的自动变速箱及动力转向系统。换挡平稳、抗震颤性能优异，工作温度范围广。",
+      "ms": "ATF Dexron III sintetik penuh untuk transmisi automatik dan sistem stereng kuasa yang memerlukan spesifikasi DX-III. Pertukaran gear lancar, prestasi anti-getaran, dan julat suhu operasi yang luas."
     },
-    "viscosity": "ATF DX-III",
-    "packSizes": ["1L", "4L"],
+    "viscosity": "ATF Dexron III",
+    "packSizes": ["4L"],
     "suitableFor": [
       { "en": "Automatic transmissions", "zh": "自动变速箱", "ms": "Transmisi automatik" },
-      { "en": "Power steering", "zh": "动力转向", "ms": "Stereng kuasa" }
+      { "en": "Power steering systems", "zh": "动力转向系统", "ms": "Sistem stereng kuasa" }
     ],
     "benefits": [
-      {
-        "en": "Smooth shift performance",
-        "zh": "平稳换挡性能",
-        "ms": "Prestasi tukar gear lancar"
-      }
+      { "en": "Smooth shift performance", "zh": "平稳换挡性能", "ms": "Prestasi tukar gear lancar" },
+      { "en": "Anti-shudder", "zh": "抗震颤", "ms": "Anti-getaran" },
+      { "en": "Wide operating temperature range", "zh": "工作温度范围广", "ms": "Julat suhu operasi yang luas" }
     ],
-    "imageUrl": "/products/_uncategorized/placeholder.png"
+    "imageUrl": "/products/gear-oil/ultra-atf-dexron-iii.jpeg"
   }
 ]

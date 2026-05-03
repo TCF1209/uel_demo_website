@@ -20,7 +20,7 @@ export type Product = {
   aceaRating?: string;
   jasoRating?: string;
   oemApprovals?: string[];
-  packSizes: ("1L" | "4L" | "5L" | "18L" | "208L")[];
+  packSizes: ("1L" | "4L" | "5L" | "7L" | "7.5L" | "18L" | "208L")[];
   suitableFor: LocalizedString[];
   benefits: LocalizedString[];
   imageUrl: string;

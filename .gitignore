@@ -34,8 +34,9 @@ yarn-error.log*
 .env*
 !.env.example
 
-# Claude Code per-user state (project-level shared settings.json may still be committed if added later)
-.claude/settings.local.json
+# Claude Code per-user state. Use `git add -f .claude/settings.json` if you ever
+# want to commit a project-shared settings file.
+.claude/
 
 # vercel
 .vercel
