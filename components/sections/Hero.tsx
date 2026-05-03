@@ -20,46 +20,31 @@ const itemVariants = {
   shown: { opacity: 1, y: 0, transition: { duration: 0.7, ease } },
 };
 
-const bottleVariants = {
-  hidden: { opacity: 0, y: 32, scale: 0.96 },
-  shown: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.9, ease } },
-};
-
 const reducedItemVariants = {
   hidden: { opacity: 0 },
   shown: { opacity: 1, transition: { duration: 0.4 } },
 };
 
-const bottles = [
-  // back-left, smaller
-  {
-    src: "/products/engine-oil/ultra-5w30-fully-synthetic.jpeg",
-    alt: "ULTRA 5W-30 Fully Synthetic",
-    className: "left-[6%] top-[14%] w-[42%] z-10 rotate-[-7deg]",
-    delay: 0.12,
-  },
-  // back-right, smaller
-  {
-    src: "/products/engine-oil/ultra-10w30.jpeg",
-    alt: "ULTRA 10W-30",
-    className: "right-[6%] top-[18%] w-[40%] z-10 rotate-[7deg]",
-    delay: 0.18,
-  },
-  // center, largest, frontmost
-  {
-    src: "/products/engine-oil/ultra-hd40.jpeg",
-    alt: "ULTRA Engine Oil HD40",
-    className: "left-1/2 top-[6%] w-[55%] -translate-x-1/2 z-20",
-    delay: 0.05,
-  },
-] as const;
+// Bottles cycled in the film-strip — pulled from the engine-oil range so
+// the strip reads as a coherent product band, not random SKUs.
+const stripBottles = [
+  { src: "/products/engine-oil/ultra-hd40.jpeg", alt: "ULTRA Engine Oil HD40" },
+  { src: "/products/engine-oil/ultra-5w30-fully-synthetic.jpeg", alt: "ULTRA 5W-30 Fully Synthetic" },
+  { src: "/products/engine-oil/ultra-10w30.jpeg", alt: "ULTRA Engine Oil 10W-30" },
+  { src: "/products/engine-oil/ultra-20w50.jpeg", alt: "ULTRA Engine Oil 20W-50" },
+  { src: "/products/engine-oil/ultra-5w30-semi-synthetic.jpeg", alt: "ULTRA 5W-30 Semi Synthetic" },
+  { src: "/products/engine-oil/ultra-10w40-semi-synthetic.jpeg", alt: "ULTRA 10W-40 Semi Synthetic" },
+];
 
 export function Hero() {
   const t = useTranslations("Home");
   const tCommon = useTranslations("Common");
   const reduce = useReducedMotion();
   const item = reduce ? reducedItemVariants : itemVariants;
-  const bottle = reduce ? reducedItemVariants : bottleVariants;
+
+  // Duplicate for seamless loop. Animate -50% so the second half lands
+  // exactly where the first half started.
+  const stripDoubled = [...stripBottles, ...stripBottles];
 
   return (
     <section className="relative overflow-hidden">
@@ -113,32 +98,53 @@ export function Hero() {
           </motion.div>
         </div>
 
-        {/* Bottle composition + signature droplet */}
-        <div className="lg:col-span-7">
-          <div className="relative mx-auto aspect-[5/6] w-full max-w-xl">
+        {/* Bottle film-strip + signature droplet */}
+        <motion.div variants={item} className="lg:col-span-7">
+          <div className="relative mx-auto aspect-[5/6] w-full max-w-xl overflow-hidden">
             <SignatureDroplet className="absolute inset-0 z-0 h-full w-full scale-[1.1]" />
 
-            {bottles.map((b) => (
-              <motion.div
-                key={b.src}
-                variants={bottle}
-                className={`absolute aspect-[3/4] ${b.className}`}
-                style={{ transformOrigin: "center bottom" }}
-              >
-                <div className="relative h-full w-full">
-                  <Image
-                    src={b.src}
-                    alt={b.alt}
-                    fill
-                    sizes="(max-width: 1024px) 60vw, 35vw"
-                    priority={b.src.includes("hd40")}
-                    className="object-contain drop-shadow-[0_30px_40px_rgba(0,0,0,0.5)]"
-                  />
+            {/* Edge fades — soft cinematic vignette so bottles enter and exit gracefully */}
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-y-0 left-0 z-30 w-16 bg-gradient-to-r from-bg-base to-transparent"
+            />
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-y-0 right-0 z-30 w-16 bg-gradient-to-l from-bg-base to-transparent"
+            />
+
+            <motion.div
+              className="absolute inset-y-[8%] left-0 z-10 flex items-center gap-6"
+              animate={reduce ? undefined : { x: ["0%", "-50%"] }}
+              transition={
+                reduce
+                  ? undefined
+                  : { duration: 50, ease: "linear", repeat: Infinity }
+              }
+            >
+              {stripDoubled.map((b, i) => (
+                <div
+                  key={`${b.src}-${i}`}
+                  className="relative aspect-[3/4] h-full w-auto flex-shrink-0"
+                  style={{
+                    height: "100%",
+                  }}
+                >
+                  <div className="relative h-full" style={{ aspectRatio: "3 / 4" }}>
+                    <Image
+                      src={b.src}
+                      alt={b.alt}
+                      fill
+                      sizes="(max-width: 1024px) 50vw, 30vw"
+                      priority={i === 0}
+                      className="object-contain drop-shadow-[0_30px_40px_rgba(0,0,0,0.5)]"
+                    />
+                  </div>
                 </div>
-              </motion.div>
-            ))}
+              ))}
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
       </motion.div>
 
       <style>{`
