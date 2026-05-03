@@ -1,8 +1,6 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { routing, type Locale } from "@/i18n/routing";
+import { Link, usePathname, routing, type Locale } from "@/i18n/routing";
 import { cn } from "@/lib/cn";
 
 const labels: Record<Locale, string> = {
@@ -12,16 +10,11 @@ const labels: Record<Locale, string> = {
 };
 
 export function LocaleSwitcher({ activeLocale }: { activeLocale: Locale }) {
+  // next-intl's usePathname returns the locale-stripped pathname,
+  // so passing it to Link with a `locale` prop produces the correct
+  // localized URL AND sets the NEXT_LOCALE cookie so middleware
+  // doesn't override the choice via Accept-Language detection.
   const pathname = usePathname();
-
-  function pathFor(target: Locale) {
-    const segments = pathname.split("/").filter(Boolean);
-    const isPrefixed = (routing.locales as readonly string[]).includes(segments[0] ?? "");
-    const rest = isPrefixed ? segments.slice(1) : segments;
-    const restPath = rest.length ? `/${rest.join("/")}` : "";
-    if (target === routing.defaultLocale) return restPath || "/";
-    return `/${target}${restPath}`;
-  }
 
   return (
     <nav aria-label="Language" className="flex items-center gap-1 font-mono text-xs">
@@ -30,7 +23,8 @@ export function LocaleSwitcher({ activeLocale }: { activeLocale: Locale }) {
         return (
           <span key={locale} className="flex items-center">
             <Link
-              href={pathFor(locale)}
+              href={pathname}
+              locale={locale}
               aria-current={isActive ? "true" : undefined}
               className={cn(
                 "inline-flex h-11 min-w-[44px] items-center justify-center px-2 transition-colors",
