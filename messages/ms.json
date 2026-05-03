@@ -62,5 +62,32 @@
     "certHeading": "Spesifikasi yang dirujuk.",
     "certBody": "Formulasi UEL merujuk spesifikasi piawai industri. Tuntutan terperinci untuk setiap produk berada pada halaman produk individu.",
     "certHint": "Rujuk halaman butiran produk untuk senarai spesifikasi tepat per SKU."
+  },
+  "WhyUel": {
+    "eyebrow": "KENAPA UEL // 05 SEBAB",
+    "headline": "Lima sebab bengkel terus menempah semula.",
+    "lede": "Kami tidak menjual berdasarkan pembungkusan. Hujah untuk UEL bersifat teknikal — iklim, tambahan, rangkaian, julat, ketelusan. Berikut, satu bahagian pada satu masa.",
+    "s1Eyebrow": "01 // IKLIM",
+    "s1Heading": "Dibina untuk 33°C dan kelembapan 90%, setiap hari.",
+    "s1Body": "Enjin di Malaysia bekerja lebih kuat daripada purata global. Trafik berhenti-jalan dalam haba bermakna minyak jarang mendapat larian lebuh raya panjang yang membolehkan suhu stabil. Setiap gred UEL dipilih untuk sampul operasi sebenar Malaysia — bukan lembaran spesifikasi iklim sederhana.",
+    "s2Eyebrow": "02 // KEJURUTERAAN",
+    "s2Heading": "Pakej tambahan ditanda aras dengan service fill OEM.",
+    "s2Body": "Anti-haus, anti-oksida, peningkat indeks kelikatan, detergen — setiap formulasi UEL merujuk spesifikasi service fill OEM dan kelas API atau ILSAC yang berkaitan. Kami tidak menghantar gred yang tidak dapat dijustifikasi pada lembaran data.",
+    "s3Eyebrow": "03 // RANGKAIAN",
+    "s3Heading": "Dijual melalui bengkel yang sebenarnya menuangkan minyak.",
+    "s3Body": "UEL adalah pengedaran bengkel-pertama. Rakan kongsi kami adalah mekanik — orang yang mendiagnos enjin, mengesyorkan gred, dan memasang minyak setiap hari. Mereka menempah semula UEL kerana pelanggan mereka kembali, bukan kerana penempatan rak.",
+    "s4Eyebrow": "04 // JULAT",
+    "s4Heading": "Daripada kapcai ke jentera pengorek, satu pembekal.",
+    "s4Body": "Enjin, industri, gear — tiga kategori, beberapa sub-kelas. Mineral, separa sintetik, sintetik penuh. 1L untuk pemilik kereta, 18L untuk industri, baldi 7.5L 4x4 untuk armada luar jalan. Satu pembekal, satu standard ketekalan.",
+    "s5Eyebrow": "05 // KETELUSAN",
+    "s5Heading": "Kod lot, lembaran spesifikasi, tiada kabus pemasaran.",
+    "s5Body": "Setiap bekas membawa kod kelompok yang boleh dijejaki kembali ke campuran. Setiap halaman produk menyenaraikan kelikatan, kelas API, kelulusan OEM dan saiz pek. Jika bengkel ingin mengesahkan tuntutan, data berada di sana — tidak ditanam.",
+    "statsHeading": "Mengikut nombor",
+    "statProductsLabel": "Produk dalam julat",
+    "statCategoriesLabel": "Kategori",
+    "statWorkshopsLabel": "Bengkel rakan kongsi",
+    "statLocalesLabel": "Bahasa disokong",
+    "ctaHeading": "Spesifikasi. Stok. Servis semula.",
+    "ctaBody": "Sama ada anda memandu Myvi atau mengendalikan bengkel armada, langkah seterusnya sama — hubungi kami."
   }
 }

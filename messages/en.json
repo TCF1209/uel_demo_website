@@ -62,5 +62,32 @@
     "certHeading": "Specifications referenced.",
     "certBody": "UEL formulations reference industry-standard specifications. Detailed claims for each product are on the individual product pages.",
     "certHint": "Refer to the product detail page for the exact specification list per SKU."
+  },
+  "WhyUel": {
+    "eyebrow": "WHY UEL // 05 ARGUMENTS",
+    "headline": "Five reasons workshops keep reordering.",
+    "lede": "We don't sell on packaging. The case for UEL is technical — climate, additives, network, range, transparency. Here it is, one section at a time.",
+    "s1Eyebrow": "01 // CLIMATE",
+    "s1Heading": "Built for 33°C and 90% humidity, every day.",
+    "s1Body": "Malaysian engines work harder than the global average. Stop-and-go traffic in the heat means oil rarely gets the long highway run that lets temperatures stabilise. Every UEL grade is selected for the real Malaysian operating envelope — not a temperate-climate spec sheet.",
+    "s2Eyebrow": "02 // ENGINEERING",
+    "s2Heading": "Additive packages benchmarked against OEM service fill.",
+    "s2Body": "Anti-wear, anti-oxidant, viscosity index improvers, detergents — every UEL formulation references OEM service-fill specifications and the relevant API or ILSAC class. We don't ship a grade we couldn't justify on the data sheet.",
+    "s3Eyebrow": "03 // NETWORK",
+    "s3Heading": "Sold through workshops that actually pour the oil.",
+    "s3Body": "UEL is a workshop-first distribution. Our partners are mechanics — the people who diagnose engines, recommend grades, and fit oil daily. They reorder UEL because their customers come back, not because of shelf placement.",
+    "s4Eyebrow": "04 // RANGE",
+    "s4Heading": "From kapcai to excavator, one supplier.",
+    "s4Body": "Engine, industrial, gear — three categories, multiple sub-classes. Mineral, semi synthetic, fully synthetic. 1L for car owners, 18L for industrial, 7.5L 4x4 buckets for off-road fleets. One supplier, one consistency standard.",
+    "s5Eyebrow": "05 // TRANSPARENCY",
+    "s5Heading": "Lot codes, spec sheets, no marketing fog.",
+    "s5Body": "Every container carries a batch code traceable back to its blend. Every product page lists viscosity, API class, OEM approvals and pack size. If a workshop wants to verify a claim, the data is there — not buried.",
+    "statsHeading": "By the numbers",
+    "statProductsLabel": "Products in range",
+    "statCategoriesLabel": "Categories",
+    "statWorkshopsLabel": "Partner workshops",
+    "statLocalesLabel": "Languages supported",
+    "ctaHeading": "Spec it. Stock it. Refit it.",
+    "ctaBody": "Whether you drive a Myvi or run a fleet workshop, the next step is the same — talk to us."
   }
 }
